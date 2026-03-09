@@ -1,0 +1,27 @@
+2026-03-08 15:23:00 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-08 15:23:05 ERROR Listeners.TestListener - Test Failed: validSignupTest
+2026-03-08 15:23:05 ERROR Listeners.TestListener - Reason: java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+2026-03-08 15:24:10 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-08 15:24:16 ERROR Listeners.TestListener - Test Failed: validSignupTest
+2026-03-08 15:24:16 ERROR Listeners.TestListener - Reason: java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+2026-03-08 15:29:07 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-08 15:29:11 ERROR Listeners.TestListener - Test Failed: validSignupTest
+2026-03-08 15:29:11 ERROR Listeners.TestListener - Reason: java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+2026-03-08 15:35:31 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-08 15:35:35 ERROR Listeners.TestListener - Test Failed: validSignupTest
+2026-03-08 15:35:35 ERROR Listeners.TestListener - Reason: java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+2026-03-08 15:39:53 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-08 15:40:01 ERROR Listeners.TestListener - Test Failed: validSignupTest
+2026-03-08 15:40:01 ERROR Listeners.TestListener - Reason: org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=145.0.7632.117)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [43f4119d5e0008121d86dbd8fb468ec5, clearElement {id=f.CBDE78A36CDD7D459ABA640FD2467B0F.d.E1D7870C45B80E668375FD165EC8E390.e.64}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\khanb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59702}, goog:processID: 26320, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59702/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (43f4119d5e0008121d86dbd8fb468ec5)] -> xpath: //select[@id='country']]
+Session ID: 43f4119d5e0008121d86dbd8fb468ec5
+2026-03-08 15:50:07 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-08 15:50:17 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-09 12:18:34 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-09 12:18:45 INFO  Listeners.TestListener - Test Passed: validSignupTest
