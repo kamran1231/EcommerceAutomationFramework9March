@@ -1,8 +1,10 @@
 C:\Users\khanb\eclipse-workspace\EcommerceWeb3March\src\main\java\Base\BasePage.java
 C:\Users\khanb\eclipse-workspace\EcommerceWeb3March\src\main\java\Pages\AccountCreatedPage.java
+C:\Users\khanb\eclipse-workspace\EcommerceWeb3March\src\main\java\Pages\HomePage.java
 C:\Users\khanb\eclipse-workspace\EcommerceWeb3March\src\main\java\Pages\LoginPage.java
 C:\Users\khanb\eclipse-workspace\EcommerceWeb3March\src\main\java\Pages\SignUpPage.java
 C:\Users\khanb\eclipse-workspace\EcommerceWeb3March\src\main\java\Utils\ConfigReader.java
 C:\Users\khanb\eclipse-workspace\EcommerceWeb3March\src\main\java\Utils\DriverFactory.java
+C:\Users\khanb\eclipse-workspace\EcommerceWeb3March\src\main\java\Utils\ExcelUtil.java
 C:\Users\khanb\eclipse-workspace\EcommerceWeb3March\src\main\java\Utils\ExtentManager.java
 C:\Users\khanb\eclipse-workspace\EcommerceWeb3March\src\main\java\Utils\ScreenshotUtil.java

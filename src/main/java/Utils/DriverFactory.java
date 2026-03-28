@@ -1,9 +1,12 @@
 package Utils;
 
 import java.time.Duration;
+import java.util.HashMap;
+import java.util.Map;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -16,11 +19,23 @@ public class DriverFactory {
 	}
 
 	public static WebDriver initDriver(String browser) {
+		ChromeOptions options = new ChromeOptions();
 
+		Map<String, Object> prefs = new HashMap<>();
+
+		prefs.put("credentials_enable_service", false);
+		prefs.put("profile.password_manager_enabled", false);
+		prefs.put("profile.autofill_profile_enabled", false);
+		prefs.put("autofill.profile_enabled", false);
+
+		options.setExperimentalOption("prefs", prefs);
+
+		options.addArguments("--disable-save-password-bubble");
+		options.addArguments("--disable-notifications");
 		if (browser.equalsIgnoreCase("chrome")) {
 
 			WebDriverManager.chromedriver().setup();
-			tlDriver.set(new ChromeDriver());
+			tlDriver.set(new ChromeDriver(options));
 
 		}
 

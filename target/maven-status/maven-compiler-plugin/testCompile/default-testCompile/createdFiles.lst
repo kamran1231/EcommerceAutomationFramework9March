@@ -1,3 +1,4 @@
 Listeners\TestListener.class
+Tests\LoginTest.class
 Tests\SignUpTest.class
 Tests\BaseTest.class

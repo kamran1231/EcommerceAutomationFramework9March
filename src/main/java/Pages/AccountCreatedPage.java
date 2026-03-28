@@ -2,14 +2,16 @@ package Pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import Base.BasePage;
 
 public class AccountCreatedPage extends BasePage{
 	
+	//b[normalize-space()='Account Created!']
 	
 	By accountCreatedText = By.xpath("//b[normalize-space()='Account Created!']");
-	By continueBtn = By.xpath("//a[normalize-space()='Continue']");
+	By continueBtn = By.xpath("//a[@data-qa='continue-button']");
 	
 	public AccountCreatedPage(WebDriver driver) {
 		super(driver);
@@ -17,7 +19,12 @@ public class AccountCreatedPage extends BasePage{
 	}
 	
 	public String getAccountCreatedMessage() {
-		return getText(accountCreatedText);
+		 //wait.until(ExpectedConditions.urlContains("account_created"));
+
+	        wait.until(ExpectedConditions.visibilityOfElementLocated(accountCreatedText));
+
+	        return getText(accountCreatedText);
+	
 	}
 
 	public String getAccountCreatedPageURL() {

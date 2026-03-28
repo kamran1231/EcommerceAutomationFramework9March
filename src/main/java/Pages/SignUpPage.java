@@ -2,14 +2,15 @@ package Pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 
 import Base.BasePage;
 
 public class SignUpPage extends BasePage {
 
-
-	By title = By.xpath("//input[@id='id_gender1']");
+	// By title = By.xpath("//input[@id='id_gender1']");
+	By SelectTitle = By.xpath("//div[@class='clearfix']//input[@type='radio']");
 	By password = By.xpath("//input[@id='password']");
 	By dayDropdown = By.xpath("//select[@id='days']");
 	By monthDropdown = By.xpath("//select[@id='months']");
@@ -25,15 +26,17 @@ public class SignUpPage extends BasePage {
 	By city = By.xpath("//input[@id='city']");
 	By zipcode = By.xpath("//input[@id='zipcode']");
 	By mobileNumber = By.xpath("//input[@id='mobile_number']");
-	By createAccountBTN = By.xpath("//button[normalize-space()='Create Account']");
+	By createAccountBtn = By.xpath("//button[@data-qa='create-account']");
+	//// button[normalize-space()='Create Account']
 
 	public SignUpPage(WebDriver driver) {
 
 		super(driver);
 	}
 
-	public SignUpPage selectTitle() {
-		click(title);
+	public SignUpPage selectTitle(String tit) {
+
+		selectRadioButton(SelectTitle, tit);
 		return this;
 	}
 
@@ -49,18 +52,34 @@ public class SignUpPage extends BasePage {
 
 	public SignUpPage selectDOB(String day, String month, String year) {
 
-		selectByValue(dayDropdown, day);
-		selectByValue(monthDropdown, month);
-		selectByValue(yearDropdown, year);
+		Select daySelect =
+	            new Select(wait.until(
+	                    ExpectedConditions.visibilityOfElementLocated(dayDropdown)));
 
-		return this;
+	    daySelect.selectByVisibleText(day);
+
+	    Select monthSelect =
+	            new Select(wait.until(
+	                    ExpectedConditions.visibilityOfElementLocated(monthDropdown)));
+
+	    monthSelect.selectByVisibleText(month);
+
+	    Select yearSelect =
+	            new Select(wait.until(
+	                    ExpectedConditions.visibilityOfElementLocated(yearDropdown)));
+
+	    yearSelect.selectByVisibleText(year);
+	    
+	    System.out.println("Selecting DOB: "
+	            + day + " " + month + " " + year);
+
+	    return this;
 
 	}
 
 	public SignUpPage checkNewsLetterAndSpecialOfferBox() {
 		click(newsLetterCheckBox);
 		click(specialOfferCheckBox);
-		
 
 		return this;
 
@@ -115,7 +134,10 @@ public class SignUpPage extends BasePage {
 	}
 
 	public AccountCreatedPage clickOnCreateAccountBtn() {
-		click(createAccountBTN);
+		// wait.until(ExpectedConditions.urlContains("account_created"));
+		removeBottomAdIfPresent();
+
+		click(createAccountBtn);
 		return new AccountCreatedPage(driver);
 
 	}

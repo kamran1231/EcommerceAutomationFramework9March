@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class BasePage {
 
 	protected WebDriver driver;
-	WebDriverWait wait;
+	protected WebDriverWait wait;
 
 	public BasePage(WebDriver driver) {
 		this.driver = driver;
@@ -22,34 +22,70 @@ public class BasePage {
 	// Robust click method
 
 	public void click(By locator) {
+	    WebElement element = wait.until(ExpectedConditions.presenceOfElementLocated(locator));
 
-		try {
+	    try {
+	        // Scroll element to center so nothing covers it
+	        ((JavascriptExecutor) driver)
+	            .executeScript("arguments[0].scrollIntoView({block:'center'});", element);
 
-			WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
-			element.click();
+	        wait.until(ExpectedConditions.elementToBeClickable(locator)).click();
 
-		} catch (Exception e) {
-
-			WebElement element = driver.findElement(locator);
-			JavascriptExecutor js = (JavascriptExecutor) driver;
-			js.executeScript("arguments[0].scrollIntoView(true);", element);
-
-			js.executeScript("arguments[0].click();", element);
-		}
+	    } catch (Exception e) {
+	        // JS click fallback (bypasses overlays)
+	        ((JavascriptExecutor) driver)
+	            .executeScript("arguments[0].click();", element);
+	    }
 	}
 	
-	//Robust type method
+	// Robust remove ad
+	public void removeBottomAdIfPresent() {
+	    try {
+	        ((JavascriptExecutor) driver).executeScript(
+	            "var ads = document.querySelectorAll('iframe');" +
+	            "ads.forEach(a => { if (a.src && a.src.includes('google')) a.remove(); });"
+	        );
+	    } catch (Exception ignored) {}
+	}
+
+	// Robust type method
 	public void type(By locator, String text) {
 		WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
 		element.clear();
-		
+
 		element.sendKeys(text);
 	}
-	
-	//Get text
+
+	// Get text
 	public String getText(By locator) {
-		
+
 		return wait.until(ExpectedConditions.visibilityOfElementLocated(locator)).getText();
+	}
+
+	public void selectRadioButton(By locator, String value) {
+
+		wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(locator));
+
+		for (WebElement radio : driver.findElements(locator)) {
+
+			if (radio.getAttribute("value").equalsIgnoreCase(value)) {
+
+				if (!radio.isSelected()) {
+
+					try {
+						radio.click();
+					} catch (Exception e) {
+
+						JavascriptExecutor js = (JavascriptExecutor) driver;
+						js.executeScript("arguments[0].scrollIntoView(true);", radio);
+						js.executeScript("arguments[0].click();", radio);
+					}
+				}
+
+				break;
+			}
+		}
+
 	}
 
 }

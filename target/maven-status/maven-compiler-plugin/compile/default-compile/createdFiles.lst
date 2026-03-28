@@ -1,8 +1,10 @@
 Utils\ScreenshotUtil.class
-Pages\SignUpPage.class
 Utils\ConfigReader.class
+Base\BasePage.class
+Pages\HomePage.class
+Pages\SignUpPage.class
 Utils\ExtentManager.class
 Pages\AccountCreatedPage.class
 Pages\LoginPage.class
 Utils\DriverFactory.class
-Base\BasePage.class
+Utils\ExcelUtil.class

@@ -14,6 +14,7 @@
 
         <classes>
             <class name="Tests.SignUpTest"/>
+            <class name="Tests.LoginTest"/>
         </classes>
 
     </test>

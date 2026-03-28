@@ -1,5 +1,7 @@
 package Tests;
 
+
+
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -15,6 +17,7 @@ public class BaseTest {
 	//@Parameters("browser")
 	@BeforeMethod
 	public void setup() {
+		
 		String browser =  ConfigReader.getProperty("browser");
 		DriverFactory.initDriver(browser);
 		driver = DriverFactory.getDriver();

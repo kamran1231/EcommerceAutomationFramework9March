@@ -25,3 +25,401 @@ Session ID: 43f4119d5e0008121d86dbd8fb468ec5
 2026-03-08 15:50:17 INFO  Listeners.TestListener - Test Passed: validSignupTest
 2026-03-09 12:18:34 INFO  Listeners.TestListener - Test Started: validSignupTest
 2026-03-09 12:18:45 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-09 15:49:44 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-09 15:49:44 ERROR Listeners.TestListener - Test Failed: signupWithExistingEmailTest
+2026-03-09 15:49:44 ERROR Listeners.TestListener - Reason: java.lang.NullPointerException: Cannot invoke "Pages.LoginPage.enterName(String)" because "this.loginPage" is null
+2026-03-09 15:49:48 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-09 15:50:01 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-09 16:01:30 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-09 16:01:32 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-09 16:01:39 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-09 16:02:02 ERROR Listeners.TestListener - Test Failed: validSignupTest
+2026-03-09 16:02:02 ERROR Listeners.TestListener - Reason: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='id_gender1']"}
+  (Session info: chrome=145.0.7632.117)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9b702efa4349833b8f36d8b4b105666f, findElement {value=//input[@id='id_gender1'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\khanb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61154}, goog:processID: 10076, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61154/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9b702efa4349833b8f36d8b4b105666f
+2026-03-09 16:12:05 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-09 16:12:08 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-09 16:12:12 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-09 16:12:20 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-09 16:38:11 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-09 16:38:14 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-09 16:38:17 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-09 16:38:28 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-10 00:24:55 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-10 00:24:59 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-10 00:25:04 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-10 00:25:29 ERROR Listeners.TestListener - Test Failed: validSignupTest
+2026-03-10 00:25:29 ERROR Listeners.TestListener - Reason: org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "input"
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: driver.version: unknown
+2026-03-10 00:53:50 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-10 00:53:54 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-10 00:54:20 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-10 00:54:38 ERROR Listeners.TestListener - Test Failed: validSignupTest
+2026-03-10 00:54:38 ERROR Listeners.TestListener - Reason: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: //b[normalize-space()='Account Created!'], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//b[normalize-space()='Account Created!']"}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\khanb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53116}, goog:processID: 13000, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53116/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 41f1bc5634b7745b496c603b3e224cb3
+2026-03-10 00:55:18 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-10 00:55:21 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-10 00:55:25 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-10 00:55:44 ERROR Listeners.TestListener - Test Failed: validSignupTest
+2026-03-10 00:55:44 ERROR Listeners.TestListener - Reason: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: //b[normalize-space()='Account Created!'], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//b[normalize-space()='Account Created!']"}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\khanb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64161}, goog:processID: 35184, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64161/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3c0bfc8df22f58607e36a27de160485b
+2026-03-10 01:03:55 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-10 01:04:00 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-10 01:04:06 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-10 01:04:23 ERROR Listeners.TestListener - Test Failed: validSignupTest
+2026-03-10 01:04:23 ERROR Listeners.TestListener - Reason: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: //b[contains(text(),'Account Created')], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//b[contains(text(),'Account Created')]"}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\khanb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56189}, goog:processID: 12292, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56189/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 452729df9378d5300308e2eabff1926c
+2026-03-10 01:10:32 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-10 01:10:36 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-10 01:10:42 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-10 01:11:03 ERROR Listeners.TestListener - Test Failed: validSignupTest
+2026-03-10 01:11:03 ERROR Listeners.TestListener - Reason: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: //b[contains(text(),'Account Created')], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//b[contains(text(),'Account Created')]"}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\khanb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53535}, goog:processID: 20504, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53535/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4f3be6a10bfa24fb1e8017937d74565d
+2026-03-10 01:13:23 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-10 01:13:28 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-10 01:13:33 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-10 01:13:50 ERROR Listeners.TestListener - Test Failed: validSignupTest
+2026-03-10 01:13:50 ERROR Listeners.TestListener - Reason: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: //b[contains(text(),'Account Created')], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//b[contains(text(),'Account Created')]"}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\khanb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55362}, goog:processID: 14180, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55362/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e8952c749a02dc415253e926aa29d205
+2026-03-10 11:34:28 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-10 11:34:31 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-10 11:34:51 ERROR Listeners.TestListener - Test Failed: signupWithExistingEmailTest
+2026-03-10 11:34:51 ERROR Listeners.TestListener - Reason: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: //p[contains(text(),'Email Address already exist!')], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[contains(text(),'Email Address already exist!')]"}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\khanb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53785}, goog:processID: 25016, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53785/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 53ed6de9a94264c8c8fb0a5ee345aa5d
+2026-03-10 11:35:01 ERROR Listeners.TestListener - Test Failed: validSignupTest
+2026-03-10 11:35:01 ERROR Listeners.TestListener - Reason: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.xpath: //div[@class='clearfix']//input[@type='radio'], but no elements were found
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\khanb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53785}, goog:processID: 25016, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53785/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 53ed6de9a94264c8c8fb0a5ee345aa5d
+2026-03-10 11:35:45 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-10 11:35:50 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-10 11:35:57 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-10 11:36:13 ERROR Listeners.TestListener - Test Failed: validSignupTest
+2026-03-10 11:36:13 ERROR Listeners.TestListener - Reason: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: //b[contains(text(),'Account Created')], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//b[contains(text(),'Account Created')]"}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\khanb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63025}, goog:processID: 20040, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63025/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3271e10e6acfee521cedfb7b011f8ea5
+2026-03-10 11:41:53 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-10 11:42:10 ERROR Listeners.TestListener - Test Failed: validSignupTest
+2026-03-10 11:42:10 ERROR Listeners.TestListener - Reason: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: //b[contains(text(),'Account Created')], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//b[contains(text(),'Account Created')]"}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.117, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: C:\Users\khanb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64060}, goog:processID: 40604, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64060/devtoo..., se:cdpVersion: 145.0.7632.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c9d2eecbe1fe38c908815da27c0fd8aa
+2026-03-13 22:53:29 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-13 22:53:40 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-13 22:53:45 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-13 22:54:00 ERROR Listeners.TestListener - Test Failed: validSignupTest
+2026-03-13 22:54:00 ERROR Listeners.TestListener - Reason: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: //b[contains(text(),'Account Created')], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//b[contains(text(),'Account Created')]"}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.72, chrome: {chromedriverVersion: 146.0.7680.76 (2a4a5f9f74e5..., userDataDir: C:\Users\khanb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50467}, goog:processID: 22428, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50467/devtoo..., se:cdpVersion: 146.0.7680.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a47f24cbdf5ee317d5dc695e62b0ecb7
+2026-03-13 23:50:00 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-13 23:50:03 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-13 23:50:08 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-13 23:50:23 ERROR Listeners.TestListener - Test Failed: validSignupTest
+2026-03-13 23:50:23 ERROR Listeners.TestListener - Reason: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: //b[contains(text(),'ACCOUNT CREATED!')], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//b[contains(text(),'ACCOUNT CREATED!')]"}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.72, chrome: {chromedriverVersion: 146.0.7680.76 (2a4a5f9f74e5..., userDataDir: C:\Users\khanb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50838}, goog:processID: 8012, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50838/devtoo..., se:cdpVersion: 146.0.7680.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a7a22102942ca89824ce51c69b93b16b
+2026-03-13 23:58:07 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-13 23:58:10 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-13 23:58:14 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-13 23:58:25 ERROR Listeners.TestListener - Test Failed: validSignupTest
+2026-03-13 23:58:25 ERROR Listeners.TestListener - Reason: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.xpath: //div[@class='clearfix']//input[@type='radio'], but no elements were found
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.72, chrome: {chromedriverVersion: 146.0.7680.76 (2a4a5f9f74e5..., userDataDir: C:\Users\khanb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65500}, goog:processID: 7296, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65500/devtoo..., se:cdpVersion: 146.0.7680.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 60747c589d9204423a1f397df4c6bc7a
+2026-03-13 23:58:41 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-13 23:58:43 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-13 23:58:48 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-13 23:59:13 ERROR Listeners.TestListener - Test Failed: validSignupTest
+2026-03-13 23:59:13 ERROR Listeners.TestListener - Reason: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element found by By.xpath: //b[contains(text(),'ACCOUNT CREATED!')]
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.72, chrome: {chromedriverVersion: 146.0.7680.76 (2a4a5f9f74e5..., userDataDir: C:\Users\khanb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59598}, goog:processID: 2504, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59598/devtoo..., se:cdpVersion: 146.0.7680.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e2e84015ca86a81505701d8c085fbcd3
+2026-03-14 00:03:26 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-14 00:03:44 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-14 00:03:49 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-14 00:03:54 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-14 00:04:11 ERROR Listeners.TestListener - Test Failed: validSignupTest
+2026-03-14 00:04:11 ERROR Listeners.TestListener - Reason: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: //b[normalize-space()='Account Created!'], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//b[normalize-space()='Account Created!']"}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.72, chrome: {chromedriverVersion: 146.0.7680.76 (2a4a5f9f74e5..., userDataDir: C:\Users\khanb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58376}, goog:processID: 4784, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58376/devtoo..., se:cdpVersion: 146.0.7680.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cd6a44fa65ec158758ec1609dde84789
+2026-03-14 00:06:37 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-14 00:06:41 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-14 00:06:44 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-14 00:07:22 ERROR Listeners.TestListener - Test Failed: validSignupTest
+2026-03-14 00:07:22 ERROR Listeners.TestListener - Reason: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: //b[normalize-space()='ACCOUNT CREATED!'], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//b[normalize-space()='ACCOUNT CREATED!']"}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.72, chrome: {chromedriverVersion: 146.0.7680.76 (2a4a5f9f74e5..., userDataDir: C:\Users\khanb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61413}, goog:processID: 22620, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61413/devtoo..., se:cdpVersion: 146.0.7680.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e5f45fcfdbaf20a9ca206bde64e076c5
+2026-03-14 00:14:29 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-14 00:14:31 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-14 00:14:36 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-14 00:14:54 ERROR Listeners.TestListener - Test Failed: validSignupTest
+2026-03-14 00:14:54 ERROR Listeners.TestListener - Reason: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain "account_created". Current url: "https://automationexercise.com/signup"
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.72, chrome: {chromedriverVersion: 146.0.7680.76 (2a4a5f9f74e5..., userDataDir: C:\Users\khanb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50253}, goog:processID: 19352, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50253/devtoo..., se:cdpVersion: 146.0.7680.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d999f457267395c3912b0976ec7063bc
+2026-03-14 00:16:26 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-14 00:16:28 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-14 00:16:33 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-14 00:16:50 ERROR Listeners.TestListener - Test Failed: validSignupTest
+2026-03-14 00:16:50 ERROR Listeners.TestListener - Reason: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain "account_created". Current url: "https://automationexercise.com/signup"
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.72, chrome: {chromedriverVersion: 146.0.7680.76 (2a4a5f9f74e5..., userDataDir: C:\Users\khanb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53704}, goog:processID: 22724, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53704/devtoo..., se:cdpVersion: 146.0.7680.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7a3a40cc99ebdb3ba2bcb15f6b5761a6
+2026-03-14 00:17:31 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-14 00:17:35 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-14 00:17:40 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-14 00:17:57 ERROR Listeners.TestListener - Test Failed: validSignupTest
+2026-03-14 00:17:57 ERROR Listeners.TestListener - Reason: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: //b[normalize-space()='ACCOUNT CREATED!'], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//b[normalize-space()='ACCOUNT CREATED!']"}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.72, chrome: {chromedriverVersion: 146.0.7680.76 (2a4a5f9f74e5..., userDataDir: C:\Users\khanb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53133}, goog:processID: 26132, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53133/devtoo..., se:cdpVersion: 146.0.7680.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b6fd85898c7c9048817c2c57b98d74e
+2026-03-14 00:25:31 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-14 00:25:36 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-14 00:25:40 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-14 00:25:57 ERROR Listeners.TestListener - Test Failed: validSignupTest
+2026-03-14 00:25:57 ERROR Listeners.TestListener - Reason: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: //b[normalize-space()='ACCOUNT CREATED!'], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//b[normalize-space()='ACCOUNT CREATED!']"}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.72, chrome: {chromedriverVersion: 146.0.7680.76 (2a4a5f9f74e5..., userDataDir: C:\Users\khanb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57158}, goog:processID: 20628, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57158/devtoo..., se:cdpVersion: 146.0.7680.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5d10e5849736527d0bd517d5e5119fa3
+2026-03-14 00:30:57 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-14 00:31:00 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-14 00:31:06 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-14 00:31:24 ERROR Listeners.TestListener - Test Failed: validSignupTest
+2026-03-14 00:31:24 ERROR Listeners.TestListener - Reason: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: //b[normalize-space()='Account Created!'], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//b[normalize-space()='Account Created!']"}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.72, chrome: {chromedriverVersion: 146.0.7680.76 (2a4a5f9f74e5..., userDataDir: C:\Users\khanb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50061}, goog:processID: 15384, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50061/devtoo..., se:cdpVersion: 146.0.7680.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e5c11f7dbff887825887acb9e81ea17
+2026-03-14 00:43:23 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-14 00:43:25 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-14 00:43:28 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-14 00:43:48 ERROR Listeners.TestListener - Test Failed: validSignupTest
+2026-03-14 00:43:48 ERROR Listeners.TestListener - Reason: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain "account_created". Current url: "https://automationexercise.com/signup"
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.72, chrome: {chromedriverVersion: 146.0.7680.76 (2a4a5f9f74e5..., userDataDir: C:\Users\khanb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56166}, goog:processID: 14372, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56166/devtoo..., se:cdpVersion: 146.0.7680.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 03589635f173685427d0ac5f544056b5
+2026-03-14 00:44:35 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-14 00:44:37 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-14 00:44:42 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-14 00:44:59 ERROR Listeners.TestListener - Test Failed: validSignupTest
+2026-03-14 00:44:59 ERROR Listeners.TestListener - Reason: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: //b[normalize-space()='Account Created!'], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//b[normalize-space()='Account Created!']"}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.72, chrome: {chromedriverVersion: 146.0.7680.76 (2a4a5f9f74e5..., userDataDir: C:\Users\khanb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50090}, goog:processID: 20100, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50090/devtoo..., se:cdpVersion: 146.0.7680.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 61597f8c75e0cb0593bd2e56f4bd9eed
+2026-03-14 00:47:10 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-14 00:47:22 ERROR Listeners.TestListener - Test Failed: signupWithExistingEmailTest
+2026-03-14 00:47:22 ERROR Listeners.TestListener - Reason: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: //p[contains(text(),'Email Address already exist!')], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[contains(text(),'Email Address already exist!')]"}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.72, chrome: {chromedriverVersion: 146.0.7680.76 (2a4a5f9f74e5..., userDataDir: C:\Users\khanb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60751}, goog:processID: 20016, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60751/devtoo..., se:cdpVersion: 146.0.7680.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e95eb9ae5169696674003e4f1cebbce7
+2026-03-14 00:47:28 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-14 00:47:36 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-14 00:47:43 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-14 00:47:46 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-14 00:47:59 ERROR Listeners.TestListener - Test Failed: validSignupTest
+2026-03-14 00:47:59 ERROR Listeners.TestListener - Reason: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: //b[normalize-space()='ACCOUNT CREATED!'], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//b[normalize-space()='ACCOUNT CREATED!']"}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.72, chrome: {chromedriverVersion: 146.0.7680.76 (2a4a5f9f74e5..., userDataDir: C:\Users\khanb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65330}, goog:processID: 4456, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65330/devtoo..., se:cdpVersion: 146.0.7680.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 050fc253e46c14e22efe4195fbf9b520
+2026-03-14 00:48:07 ERROR Listeners.TestListener - Test Failed: validSignupTest
+2026-03-14 00:48:07 ERROR Listeners.TestListener - Reason: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: //b[normalize-space()='ACCOUNT CREATED!'], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//b[normalize-space()='ACCOUNT CREATED!']"}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.72, chrome: {chromedriverVersion: 146.0.7680.76 (2a4a5f9f74e5..., userDataDir: C:\Users\khanb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50289}, goog:processID: 16212, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50289/devtoo..., se:cdpVersion: 146.0.7680.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 40eeefa80a3780accd8aca49381f9d81
+2026-03-27 21:40:44 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-27 21:40:48 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-27 21:40:54 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-27 21:41:17 ERROR Listeners.TestListener - Test Failed: validSignupTest
+2026-03-27 21:41:17 ERROR Listeners.TestListener - Reason: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: //b[normalize-space()='ACCOUNT CREATED!'], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//b[normalize-space()='ACCOUNT CREATED!']"}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.81, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\khanb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61163}, goog:processID: 24328, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61163/devtoo..., se:cdpVersion: 146.0.7680.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d77f2099cd666afb6e34918c5536da3
+2026-03-27 21:42:48 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-27 21:42:51 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-27 21:42:55 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-27 21:43:19 ERROR Listeners.TestListener - Test Failed: validSignupTest
+2026-03-27 21:43:19 ERROR Listeners.TestListener - Reason: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: //b[normalize-space()='ACCOUNT CREATED!'], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//b[normalize-space()='ACCOUNT CREATED!']"}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.81, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\khanb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50664}, goog:processID: 9944, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50664/devtoo..., se:cdpVersion: 146.0.7680.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b4134310b5e59877ed14572a27f255fb
+2026-03-27 21:47:19 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-27 21:47:24 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-27 21:47:30 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-27 21:47:44 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-28 00:27:28 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-28 00:27:35 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-28 00:27:40 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-28 00:27:53 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-28 00:27:59 INFO  Listeners.TestListener - Test Started: loginWithValidCredential
+2026-03-28 00:28:13 ERROR Listeners.TestListener - Test Failed: loginWithValidCredential
+2026-03-28 00:28:13 ERROR Listeners.TestListener - Reason: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: //div[contains(@class,'item') and contains(@class,'active')]//h2[contains(text(),'Full-Fledged practice website')], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'item') and contains(@class,'active')]//h2[contains(text(),'Full-Fledged practice website')]"}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.81, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\khanb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64451}, goog:processID: 26572, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64451/devtoo..., se:cdpVersion: 146.0.7680.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3549dae92e2f780dbb6fba63fba040d7
+2026-03-28 00:29:09 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-28 00:29:12 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-28 00:29:17 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-28 00:29:29 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-28 00:29:34 INFO  Listeners.TestListener - Test Started: loginWithValidCredential
+2026-03-28 00:29:39 INFO  Listeners.TestListener - Test Passed: loginWithValidCredential
+2026-03-28 00:55:51 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-28 00:55:56 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-28 00:56:01 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-28 00:56:12 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-28 00:56:15 INFO  Listeners.TestListener - Test Started: loginWithInvalidPassword
+2026-03-28 00:56:17 INFO  Listeners.TestListener - Test Passed: loginWithInvalidPassword
+2026-03-28 00:56:20 INFO  Listeners.TestListener - Test Started: loginWithValidCredential
+2026-03-28 00:56:29 INFO  Listeners.TestListener - Test Passed: loginWithValidCredential
+2026-03-28 02:20:43 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-28 02:20:49 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-28 02:20:54 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-28 02:21:04 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-28 02:21:10 INFO  Listeners.TestListener - Test Started: loginWithInvalidPassword
+2026-03-28 02:21:12 INFO  Listeners.TestListener - Test Passed: loginWithInvalidPassword
+2026-03-28 02:21:14 INFO  Listeners.TestListener - Test Started: loginWithValidCredential
+2026-03-28 02:21:21 INFO  Listeners.TestListener - Test Passed: loginWithValidCredential
+2026-03-28 15:17:21 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-28 15:17:26 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-28 15:17:29 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-28 15:17:46 ERROR Listeners.TestListener - Test Failed: validSignupTest
+2026-03-28 15:17:46 ERROR Listeners.TestListener - Reason: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: May
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: driver.version: unknown
+2026-03-28 15:17:49 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-28 15:18:05 ERROR Listeners.TestListener - Test Failed: validSignupTest
+2026-03-28 15:18:05 ERROR Listeners.TestListener - Reason: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: March
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: driver.version: unknown
+2026-03-28 15:18:09 INFO  Listeners.TestListener - Test Started: loginWithInvalidPassword
+2026-03-28 15:18:12 INFO  Listeners.TestListener - Test Passed: loginWithInvalidPassword
+2026-03-28 15:18:14 INFO  Listeners.TestListener - Test Started: loginWithValidCredential
+2026-03-28 15:18:28 ERROR Listeners.TestListener - Test Failed: loginWithValidCredential
+2026-03-28 15:18:28 ERROR Listeners.TestListener - Reason: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: //div[contains(@class,'item') and contains(@class,'active')]//h2[contains(text(),'Full-Fledged practice website')], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'item') and contains(@class,'active')]//h2[contains(text(),'Full-Fledged practice website')]"}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\khanb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55040}, goog:processID: 15936, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55040/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 636e0337f5ebc82de25d974bd2c79d79
+2026-03-28 15:47:11 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-28 15:47:14 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-28 15:47:20 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-28 15:47:31 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-28 15:47:35 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-28 15:47:46 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-28 15:47:49 INFO  Listeners.TestListener - Test Started: loginWithInvalidPassword
+2026-03-28 15:47:52 INFO  Listeners.TestListener - Test Passed: loginWithInvalidPassword
+2026-03-28 15:47:55 INFO  Listeners.TestListener - Test Started: loginWithValidCredential
+2026-03-28 15:48:00 INFO  Listeners.TestListener - Test Passed: loginWithValidCredential
