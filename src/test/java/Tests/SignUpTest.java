@@ -88,9 +88,8 @@ public class SignUpTest extends BaseTest {
 
 	@Test
 	public void signupWithExistingEmailTest() {
-		String validEmail = System.getProperty("validEmail");
 		loginPage = new LoginPage(driver);
-		loginPage.enterName("kamran").enterEmail(validEmail).clickSignup();
+		loginPage.enterName("kamran").enterEmail("kamran44@mailinator.com").clickSignup();
 
 		String actualError = loginPage.getEmailAlertAlreadyMSG();
 

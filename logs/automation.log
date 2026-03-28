@@ -423,3 +423,134 @@ Session ID: 636e0337f5ebc82de25d974bd2c79d79
 2026-03-28 15:47:52 INFO  Listeners.TestListener - Test Passed: loginWithInvalidPassword
 2026-03-28 15:47:55 INFO  Listeners.TestListener - Test Started: loginWithValidCredential
 2026-03-28 15:48:00 INFO  Listeners.TestListener - Test Passed: loginWithValidCredential
+2026-03-28 16:05:52 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-28 16:05:55 ERROR Listeners.TestListener - Test Failed: signupWithExistingEmailTest
+2026-03-28 16:05:55 ERROR Listeners.TestListener - Reason: java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+2026-03-28 16:06:01 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-28 16:06:11 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-28 16:06:13 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-28 16:06:24 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-28 16:06:27 INFO  Listeners.TestListener - Test Started: loginWithInvalidPassword
+2026-03-28 16:06:30 INFO  Listeners.TestListener - Test Passed: loginWithInvalidPassword
+2026-03-28 16:06:32 INFO  Listeners.TestListener - Test Started: loginWithValidCredential
+2026-03-28 16:06:37 INFO  Listeners.TestListener - Test Passed: loginWithValidCredential
+2026-03-28 16:45:59 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-28 16:46:03 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-28 16:46:09 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-28 16:46:23 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-28 16:46:28 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-28 16:46:37 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-28 16:46:41 INFO  Listeners.TestListener - Test Started: loginWithInvalidPassword
+2026-03-28 16:46:45 INFO  Listeners.TestListener - Test Passed: loginWithInvalidPassword
+2026-03-28 16:46:47 INFO  Listeners.TestListener - Test Started: loginWithValidCredential
+2026-03-28 16:47:15 INFO  Listeners.TestListener - Test Passed: loginWithValidCredential
+2026-03-28 17:21:25 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-28 17:21:29 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-28 17:21:36 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-28 17:21:48 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-28 17:21:54 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-28 17:22:09 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-28 17:22:09 ERROR Listeners.TestListener - Test Failed: loginWithInvalidPassword
+2026-03-28 17:22:09 ERROR Listeners.TestListener - Reason: org.testng.TestNGException: 
+Cannot inject @Test annotated Method [loginWithInvalidPassword] with [class java.lang.String, class java.lang.String, class java.lang.String].
+For more information on native dependency injection please refer to https://testng.org/#_dependency_injection
+2026-03-28 17:33:47 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-28 17:33:50 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-28 17:33:53 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-28 17:34:03 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-28 17:34:07 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-28 17:34:20 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-28 17:34:20 ERROR Listeners.TestListener - Test Failed: loginWithInvalidPassword
+2026-03-28 17:34:20 ERROR Listeners.TestListener - Reason: java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke "org.apache.poi.ss.usermodel.Row.getCell(int)" because the return value of "org.apache.poi.ss.usermodel.Sheet.getRow(int)" is null
+2026-03-28 17:41:36 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-28 17:41:39 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-28 17:41:44 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-28 17:41:53 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-28 17:42:18 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-28 17:42:30 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-28 17:42:31 ERROR Listeners.TestListener - Test Failed: loginWithInvalidPassword
+2026-03-28 17:42:31 ERROR Listeners.TestListener - Reason: java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke "org.apache.poi.ss.usermodel.Row.getCell(int)" because the return value of "org.apache.poi.ss.usermodel.Sheet.getRow(int)" is null
+2026-03-28 18:09:40 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-28 18:09:42 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-28 18:09:48 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-28 18:09:57 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-28 18:09:59 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-28 18:10:02 ERROR Listeners.TestListener - Test Failed: validSignupTest
+2026-03-28 18:10:02 ERROR Listeners.TestListener - Reason: java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+2026-03-28 18:10:07 INFO  Listeners.TestListener - Test Started: loginWithInvalidPassword
+2026-03-28 18:10:09 INFO  Listeners.TestListener - Test Passed: loginWithInvalidPassword
+2026-03-28 18:10:35 INFO  Listeners.TestListener - Test Started: loginWithInvalidPassword
+2026-03-28 18:10:46 ERROR Listeners.TestListener - Test Failed: loginWithInvalidPassword
+2026-03-28 18:10:46 ERROR Listeners.TestListener - Reason: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: //p[contains(normalize-space(),'Your email or password is incorrect')], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[contains(normalize-space(),'Your email or password is incorrect')]"}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\khanb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51114}, goog:processID: 18072, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51114/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aa9bce0e4d3a4a1b038fe311d48a6efa
+2026-03-28 18:10:50 INFO  Listeners.TestListener - Test Started: loginWithInvalidPassword
+2026-03-28 18:11:01 ERROR Listeners.TestListener - Test Failed: loginWithInvalidPassword
+2026-03-28 18:11:01 ERROR Listeners.TestListener - Reason: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: //p[contains(normalize-space(),'Your email or password is incorrect')], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[contains(normalize-space(),'Your email or password is incorrect')]"}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\khanb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50222}, goog:processID: 22772, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50222/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 634dc4c10243a27975853f4d3f43535a
+2026-03-28 18:11:09 INFO  Listeners.TestListener - Test Started: loginWithInvalidPassword
+2026-03-28 18:11:20 ERROR Listeners.TestListener - Test Failed: loginWithInvalidPassword
+2026-03-28 18:11:20 ERROR Listeners.TestListener - Reason: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: //p[contains(normalize-space(),'Your email or password is incorrect')], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[contains(normalize-space(),'Your email or password is incorrect')]"}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\khanb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49197}, goog:processID: 24932, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49197/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3dec2b97809a2b73d7808d3e3d778077
+2026-03-28 18:11:25 INFO  Listeners.TestListener - Test Started: loginWithInvalidPassword
+2026-03-28 18:11:25 ERROR Listeners.TestListener - Test Failed: loginWithInvalidPassword
+2026-03-28 18:11:25 ERROR Listeners.TestListener - Reason: java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+2026-03-28 18:11:30 INFO  Listeners.TestListener - Test Started: loginWithValidCredential
+2026-03-28 23:51:03 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-28 23:51:07 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-28 23:51:14 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-28 23:51:26 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-28 23:51:29 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-28 23:51:44 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-28 23:51:49 INFO  Listeners.TestListener - Test Started: loginWithInvalidPassword
+2026-03-28 23:51:52 INFO  Listeners.TestListener - Test Passed: loginWithInvalidPassword
+2026-03-28 23:51:55 INFO  Listeners.TestListener - Test Started: loginWithValidCredential
+2026-03-28 23:52:27 ERROR Listeners.TestListener - Test Failed: loginWithValidCredential
+2026-03-28 23:52:27 ERROR Listeners.TestListener - Reason: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: //div[contains(@class,'item') and contains(@class,'active')]//h2[contains(text(),'Full-Fledged practice website')], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'item') and contains(@class,'active')]//h2[contains(text(),'Full-Fledged practice website')]"}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\khanb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56218}, goog:processID: 23436, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56218/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 06ceb034501cf5bc5c42b825121843aa
+2026-03-28 23:54:17 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-28 23:54:21 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-28 23:54:26 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-28 23:54:37 ERROR Listeners.TestListener - Test Failed: validSignupTest
+2026-03-28 23:54:37 ERROR Listeners.TestListener - Reason: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.xpath: //div[@class='clearfix']//input[@type='radio'], but no elements were found
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\khanb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55070}, goog:processID: 11092, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55070/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: db78462bb3b4b199b794cd1bb0bd8da5
+2026-03-28 23:54:43 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-28 23:54:55 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-28 23:55:00 INFO  Listeners.TestListener - Test Started: loginWithInvalidPassword
+2026-03-28 23:55:03 INFO  Listeners.TestListener - Test Passed: loginWithInvalidPassword
+2026-03-28 23:55:08 INFO  Listeners.TestListener - Test Started: loginWithValidCredential
+2026-03-28 23:55:12 INFO  Listeners.TestListener - Test Passed: loginWithValidCredential
+2026-03-28 23:55:33 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-28 23:56:00 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-28 23:56:03 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-28 23:56:37 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-28 23:56:42 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-28 23:56:53 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-28 23:56:57 INFO  Listeners.TestListener - Test Started: loginWithInvalidPassword
+2026-03-28 23:57:00 INFO  Listeners.TestListener - Test Passed: loginWithInvalidPassword
+2026-03-28 23:57:03 INFO  Listeners.TestListener - Test Started: loginWithValidCredential
+2026-03-28 23:57:12 INFO  Listeners.TestListener - Test Passed: loginWithValidCredential
