@@ -22,7 +22,7 @@ public class LoginTest extends BaseTest {
 	}
 
 	@Test(dataProvider = "validloginData")
-	public void loginWithValidCredential(String email, String password, String category, String subCategory) {
+	public void loginWithValidCredential(String email, String password, String category, String subCategory, String brand) {
 
 		loginPage = new LoginPage(driver);
 

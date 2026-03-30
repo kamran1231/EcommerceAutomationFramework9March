@@ -642,3 +642,97 @@ Arguments: [(java.lang.String) kamran44@mailinator.com,(java.lang.String) Test@1
 2026-03-30 15:10:48 INFO  Listeners.TestListener - Test Passed: verifyCategoryAfterLogin
 2026-03-30 15:10:51 INFO  Listeners.TestListener - Test Started: verifyCategoryAfterLogin
 2026-03-30 15:11:35 INFO  Listeners.TestListener - Test Passed: verifyCategoryAfterLogin
+2026-03-30 17:33:16 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-30 17:33:19 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-30 17:33:23 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-30 17:33:35 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-30 17:33:39 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-30 17:33:49 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-30 17:33:54 INFO  Listeners.TestListener - Test Started: loginWithInvalidPassword
+2026-03-30 17:33:57 INFO  Listeners.TestListener - Test Passed: loginWithInvalidPassword
+2026-03-30 17:33:57 ERROR Listeners.TestListener - Test Failed: loginWithValidCredential
+2026-03-30 17:33:57 ERROR Listeners.TestListener - Reason: org.testng.internal.reflect.MethodMatcherException: 
+[public void Tests.LoginTest.loginWithValidCredential(java.lang.String,java.lang.String,java.lang.String,java.lang.String)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: loginWithValidCredential([java.lang.String arg0, java.lang.String arg1, java.lang.String arg2, java.lang.String arg3])
+Arguments: [(java.lang.String) kamran44@mailinator.com,(java.lang.String) Test@123,(java.lang.String) Women,(java.lang.String) Dress,(java.lang.String) Polo]
+2026-03-31 04:08:58 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-31 04:09:04 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-31 04:09:09 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-31 04:09:22 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-31 04:09:28 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-31 04:09:41 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-31 04:09:45 INFO  Listeners.TestListener - Test Started: loginWithInvalidPassword
+2026-03-31 04:09:50 INFO  Listeners.TestListener - Test Passed: loginWithInvalidPassword
+2026-03-31 04:09:50 ERROR Listeners.TestListener - Test Failed: loginWithValidCredential
+2026-03-31 04:09:50 ERROR Listeners.TestListener - Reason: org.testng.internal.reflect.MethodMatcherException: 
+[public void Tests.LoginTest.loginWithValidCredential(java.lang.String,java.lang.String,java.lang.String,java.lang.String)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: loginWithValidCredential([java.lang.String arg0, java.lang.String arg1, java.lang.String arg2, java.lang.String arg3])
+Arguments: [(java.lang.String) kamran44@mailinator.com,(java.lang.String) Test@123,(java.lang.String) Women,(java.lang.String) Dress,(java.lang.String) Polo]
+2026-03-31 04:21:36 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-31 04:21:40 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-31 04:21:45 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-31 04:21:58 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-31 04:22:02 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-31 04:22:36 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-31 04:22:39 INFO  Listeners.TestListener - Test Started: loginWithInvalidPassword
+2026-03-31 04:22:44 INFO  Listeners.TestListener - Test Passed: loginWithInvalidPassword
+2026-03-31 04:22:44 ERROR Listeners.TestListener - Test Failed: loginWithValidCredential
+2026-03-31 04:22:44 ERROR Listeners.TestListener - Reason: org.testng.internal.reflect.MethodMatcherException: 
+[public void Tests.LoginTest.loginWithValidCredential(java.lang.String,java.lang.String,java.lang.String,java.lang.String)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: loginWithValidCredential([java.lang.String arg0, java.lang.String arg1, java.lang.String arg2, java.lang.String arg3])
+Arguments: [(java.lang.String) kamran44@mailinator.com,(java.lang.String) Test@123,(java.lang.String) Women,(java.lang.String) Dress,(java.lang.String) Polo]
+2026-03-31 04:41:14 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-31 04:41:18 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-31 04:41:24 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-31 04:41:37 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-31 04:41:43 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-31 04:41:56 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-31 04:42:01 INFO  Listeners.TestListener - Test Started: loginWithInvalidPassword
+2026-03-31 04:42:06 INFO  Listeners.TestListener - Test Passed: loginWithInvalidPassword
+2026-03-31 04:42:06 ERROR Listeners.TestListener - Test Failed: loginWithValidCredential
+2026-03-31 04:42:06 ERROR Listeners.TestListener - Reason: org.testng.internal.reflect.MethodMatcherException: 
+[public void Tests.LoginTest.loginWithValidCredential(java.lang.String,java.lang.String,java.lang.String,java.lang.String)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: loginWithValidCredential([java.lang.String arg0, java.lang.String arg1, java.lang.String arg2, java.lang.String arg3])
+Arguments: [(java.lang.String) kamran44@mailinator.com,(java.lang.String) Test@123,(java.lang.String) Women,(java.lang.String) Dress,(java.lang.String) Polo]
+2026-03-31 04:42:11 INFO  Listeners.TestListener - Test Started: verifyBrandSelection
+2026-03-31 04:42:19 INFO  Listeners.TestListener - Test Passed: verifyBrandSelection
+2026-03-31 04:42:25 INFO  Listeners.TestListener - Test Started: verifyBrandSelection
+2026-03-31 04:42:34 INFO  Listeners.TestListener - Test Passed: verifyBrandSelection
+2026-03-31 04:42:39 INFO  Listeners.TestListener - Test Started: verifyBrandSelection
+2026-03-31 04:42:47 INFO  Listeners.TestListener - Test Passed: verifyBrandSelection
+2026-03-31 04:42:52 INFO  Listeners.TestListener - Test Started: verifyCategoryAfterLogin
+2026-03-31 04:43:01 INFO  Listeners.TestListener - Test Passed: verifyCategoryAfterLogin
+2026-03-31 04:43:04 INFO  Listeners.TestListener - Test Started: verifyCategoryAfterLogin
+2026-03-31 04:43:13 INFO  Listeners.TestListener - Test Passed: verifyCategoryAfterLogin
+2026-03-31 04:43:17 INFO  Listeners.TestListener - Test Started: verifyCategoryAfterLogin
+2026-03-31 04:43:26 INFO  Listeners.TestListener - Test Passed: verifyCategoryAfterLogin
+2026-03-31 04:54:15 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-31 04:54:19 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-31 04:54:24 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-31 04:54:37 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-31 04:54:43 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-31 04:54:56 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-31 04:55:01 INFO  Listeners.TestListener - Test Started: loginWithInvalidPassword
+2026-03-31 04:55:05 INFO  Listeners.TestListener - Test Passed: loginWithInvalidPassword
+2026-03-31 04:55:10 INFO  Listeners.TestListener - Test Started: loginWithValidCredential
+2026-03-31 04:55:15 INFO  Listeners.TestListener - Test Passed: loginWithValidCredential
+2026-03-31 04:55:18 INFO  Listeners.TestListener - Test Started: loginWithValidCredential
+2026-03-31 04:55:23 INFO  Listeners.TestListener - Test Passed: loginWithValidCredential
+2026-03-31 04:55:26 INFO  Listeners.TestListener - Test Started: loginWithValidCredential
+2026-03-31 04:55:31 INFO  Listeners.TestListener - Test Passed: loginWithValidCredential
+2026-03-31 04:55:57 INFO  Listeners.TestListener - Test Started: verifyBrandSelection
+2026-03-31 04:56:05 INFO  Listeners.TestListener - Test Passed: verifyBrandSelection
+2026-03-31 04:56:09 INFO  Listeners.TestListener - Test Started: verifyBrandSelection
+2026-03-31 04:56:18 INFO  Listeners.TestListener - Test Passed: verifyBrandSelection
+2026-03-31 04:56:23 INFO  Listeners.TestListener - Test Started: verifyBrandSelection
+2026-03-31 04:56:36 INFO  Listeners.TestListener - Test Passed: verifyBrandSelection
+2026-03-31 04:56:41 INFO  Listeners.TestListener - Test Started: verifyCategoryAfterLogin
+2026-03-31 04:56:49 INFO  Listeners.TestListener - Test Passed: verifyCategoryAfterLogin
+2026-03-31 04:56:55 INFO  Listeners.TestListener - Test Started: verifyCategoryAfterLogin
+2026-03-31 04:57:05 INFO  Listeners.TestListener - Test Passed: verifyCategoryAfterLogin
+2026-03-31 04:57:10 INFO  Listeners.TestListener - Test Started: verifyCategoryAfterLogin
+2026-03-31 04:57:20 INFO  Listeners.TestListener - Test Passed: verifyCategoryAfterLogin

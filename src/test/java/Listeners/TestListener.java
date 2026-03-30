@@ -38,15 +38,24 @@ public class TestListener implements ITestListener {
 		logger.error("Reason: " + result.getThrowable());
 		test.fail(result.getThrowable());
 
-		String screenshotpath = ScreenshotUtil.captureScreenshot(result.getName());
+		String screenshotpath =
+				ScreenshotUtil.captureScreenshot(result.getName());
 
-		try {
+				if (screenshotpath != null) {
 
-			test.addScreenCaptureFromPath(screenshotpath);
+				    try {
 
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
+				        test.addScreenCaptureFromPath(screenshotpath);
+
+				    }
+
+				    catch (Exception e) {
+
+				        e.printStackTrace();
+
+				    }
+
+				}
 
 	}
 

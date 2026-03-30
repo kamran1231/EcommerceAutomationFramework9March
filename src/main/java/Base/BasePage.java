@@ -23,17 +23,27 @@ public class BasePage {
 
 		try {
 
-			if (driver.getCurrentUrl().contains("google_vignette")) {
+			for (int i = 0; i < 5; i++) {
 
-				System.out.println("Vignette Ad Detected");
+				if (driver.getCurrentUrl().contains("google_vignette")) {
 
-				driver.navigate().back();
+					System.out.println("Vignette Ad Detected — Closing");
+
+					driver.navigate().back();
+
+					Thread.sleep(1000);
+
+				} else {
+
+					break;
+
+				}
 
 			}
 
 		} catch (Exception e) {
 
-			System.out.println("No Vignette Ad");
+			System.out.println("No Vignette Ad Found");
 
 		}
 
@@ -42,18 +52,40 @@ public class BasePage {
 	// Robust click method
 
 	public void click(By locator) {
-		WebElement element = wait.until(ExpectedConditions.presenceOfElementLocated(locator));
 
-		try {
-			// Scroll element to center so nothing covers it
-			((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({block:'center'});", element);
+	    handleVignetteAd();
 
-			wait.until(ExpectedConditions.elementToBeClickable(locator)).click();
+	    WebElement element =
+	            wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
 
-		} catch (Exception e) {
-			// JS click fallback (bypasses overlays)
-			((JavascriptExecutor) driver).executeScript("arguments[0].click();", element);
-		}
+	    try {
+
+	        // Scroll to element center
+	        ((JavascriptExecutor) driver)
+	                .executeScript(
+	                        "arguments[0].scrollIntoView({block:'center'});",
+	                        element);
+
+	        // Small pause for overlay stability
+	        Thread.sleep(500);
+
+	        // Wait clickable using element (not locator)
+	        wait.until(ExpectedConditions.elementToBeClickable(element));
+
+	        element.click();
+
+	    } catch (Exception e) {
+
+	        System.out.println("Normal click failed — using JS click");
+
+	        ((JavascriptExecutor) driver)
+	                .executeScript(
+	                        "arguments[0].click();",
+	                        element);
+	    }
+
+	    handleVignetteAd();
+
 	}
 
 	// Robust remove ad
@@ -108,6 +140,7 @@ public class BasePage {
 	// Robust Element displayed
 	public boolean isElementDisplayed(By locator) {
 
+		handleVignetteAd();
 		try {
 
 			wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
@@ -119,6 +152,30 @@ public class BasePage {
 			return false;
 
 		}
+
+	}
+
+	// SCROLL
+
+	public void scrollToElement(By locator) {
+
+	    WebElement element =
+	            waitForElementVisible(locator);
+
+	    JavascriptExecutor js =
+	            (JavascriptExecutor) driver;
+
+	    js.executeScript(
+	        "arguments[0].scrollIntoView({block:'center'});",
+	        element
+	    );
+
+	}
+
+	public WebElement waitForElementVisible(By locator) {
+
+		handleVignetteAd();
+		return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
 
 	}
 

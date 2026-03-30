@@ -11,9 +11,9 @@ public class HomePageTest extends BaseTest {
 	LoginPage loginPage;
 	HomePage homePage;
 
-
 	@Test(dataProvider = "validloginData", dataProviderClass = LoginTest.class)
-	public void verifyCategoryAfterLogin(String email, String password, String category, String subCategory) {
+	public void verifyCategoryAfterLogin(String email, String password, String category, String subCategory,
+			String brand) {
 
 		loginPage = new LoginPage(driver);
 
@@ -45,7 +45,7 @@ public class HomePageTest extends BaseTest {
 
 				homePage.isCategoryPageDisplayed(category, subCategory),
 
-				category.toUpperCase()  +subCategory.toUpperCase()+ "products page not displayed"
+				category.toUpperCase() + subCategory.toUpperCase() + "products page not displayed"
 
 		);
 
@@ -55,9 +55,42 @@ public class HomePageTest extends BaseTest {
 
 				actualHeader,
 
-				category.toUpperCase() +" - "+subCategory.toUpperCase() + " PRODUCTS"
+				category.toUpperCase() + " - " + subCategory.toUpperCase() + " PRODUCTS"
 
 		);
+
+	}
+
+	@Test(dataProvider = "validloginData", dataProviderClass = LoginTest.class)
+	public void verifyBrandSelection(String email, String password, String category, String subCategory, String brand) {
+
+		loginPage = new LoginPage(driver);
+
+		// LOGIN
+
+		loginPage.inputEmail(email);
+		loginPage.inputPassword(password);
+		loginPage.clickOnLoginBtn();
+
+		String actualText = loginPage.getLoggedInUserText();
+
+		Assert.assertTrue(actualText.contains("Full-Fledged practice website for Automation Engineers"));
+
+		homePage = new HomePage(driver);
+
+		// SELECT BRAND
+
+		homePage.selectBrand(brand);
+
+		// VALIDATION
+
+		Assert.assertTrue(homePage.isBrandPageDisplayed(brand), "Brand page not displayed");
+
+		String actualHeader = homePage.getBrandHeaderText(brand);
+
+		String expectedHeader = "BRAND - " + brand.toUpperCase() + " PRODUCTS";
+
+		Assert.assertEquals(actualHeader, expectedHeader);
 
 	}
 
