@@ -554,3 +554,91 @@ Session ID: db78462bb3b4b199b794cd1bb0bd8da5
 2026-03-28 23:57:00 INFO  Listeners.TestListener - Test Passed: loginWithInvalidPassword
 2026-03-28 23:57:03 INFO  Listeners.TestListener - Test Started: loginWithValidCredential
 2026-03-28 23:57:12 INFO  Listeners.TestListener - Test Passed: loginWithValidCredential
+2026-03-29 20:43:16 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-29 20:43:28 ERROR Listeners.TestListener - Test Failed: signupWithExistingEmailTest
+2026-03-29 20:43:28 ERROR Listeners.TestListener - Reason: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.xpath: //p[contains(text(),'Email Address already exist!')], but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[contains(text(),'Email Address already exist!')]"}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\khanb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49369}, goog:processID: 5132, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49369/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8666773134c4e8380a249d69efdf5685
+2026-03-29 20:43:34 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-29 20:43:45 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-29 20:43:48 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-29 20:44:03 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-29 20:44:06 INFO  Listeners.TestListener - Test Started: loginWithInvalidPassword
+2026-03-29 20:44:08 INFO  Listeners.TestListener - Test Passed: loginWithInvalidPassword
+2026-03-29 20:44:13 INFO  Listeners.TestListener - Test Started: loginWithValidCredential
+2026-03-29 20:44:17 INFO  Listeners.TestListener - Test Passed: loginWithValidCredential
+2026-03-29 20:44:19 INFO  Listeners.TestListener - Test Started: verifyCategoryAfterLogin
+2026-03-29 20:44:34 INFO  Listeners.TestListener - Test Passed: verifyCategoryAfterLogin
+2026-03-30 01:23:44 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-30 01:23:49 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-30 01:23:52 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-30 01:24:04 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-30 01:24:07 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-30 01:24:19 ERROR Listeners.TestListener - Test Failed: validSignupTest
+2026-03-30 01:24:19 ERROR Listeners.TestListener - Reason: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.xpath: //div[@class='clearfix']//input[@type='radio'], but no elements were found
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\khanb\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60228}, goog:processID: 28304, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60228/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4a40acda6ae5b4ec005dde52fc61b054
+2026-03-30 01:24:23 INFO  Listeners.TestListener - Test Started: loginWithInvalidPassword
+2026-03-30 01:24:26 INFO  Listeners.TestListener - Test Passed: loginWithInvalidPassword
+2026-03-30 01:24:26 ERROR Listeners.TestListener - Test Failed: loginWithValidCredential
+2026-03-30 01:24:26 ERROR Listeners.TestListener - Reason: org.testng.internal.reflect.MethodMatcherException: 
+[public void Tests.LoginTest.loginWithValidCredential(java.lang.String,java.lang.String)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: loginWithValidCredential([java.lang.String arg0, java.lang.String arg1])
+Arguments: [(java.lang.String) kamran44@mailinator.com,(java.lang.String) Test@123,(java.lang.String) Women,(java.lang.String) Dress]
+2026-03-30 14:21:09 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-30 14:21:13 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-30 14:21:15 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-30 14:21:31 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-30 14:21:36 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-30 14:21:49 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-30 14:21:55 INFO  Listeners.TestListener - Test Started: loginWithInvalidPassword
+2026-03-30 14:22:00 INFO  Listeners.TestListener - Test Passed: loginWithInvalidPassword
+2026-03-30 14:22:00 ERROR Listeners.TestListener - Test Failed: loginWithValidCredential
+2026-03-30 14:22:00 ERROR Listeners.TestListener - Reason: org.testng.internal.reflect.MethodMatcherException: 
+[public void Tests.LoginTest.loginWithValidCredential(java.lang.String,java.lang.String)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: loginWithValidCredential([java.lang.String arg0, java.lang.String arg1])
+Arguments: [(java.lang.String) kamran44@mailinator.com,(java.lang.String) Test@123,(java.lang.String) Women,(java.lang.String) Dress]
+2026-03-30 14:45:34 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-30 14:45:38 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-30 14:45:43 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-30 14:45:55 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-30 14:45:59 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-30 14:46:11 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-30 14:46:14 INFO  Listeners.TestListener - Test Started: loginWithInvalidPassword
+2026-03-30 14:46:16 INFO  Listeners.TestListener - Test Passed: loginWithInvalidPassword
+2026-03-30 14:46:16 ERROR Listeners.TestListener - Test Failed: loginWithValidCredential
+2026-03-30 14:46:16 ERROR Listeners.TestListener - Reason: org.testng.internal.reflect.MethodMatcherException: 
+[public void Tests.LoginTest.loginWithValidCredential(java.lang.String,java.lang.String)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: loginWithValidCredential([java.lang.String arg0, java.lang.String arg1])
+Arguments: [(java.lang.String) kamran44@mailinator.com,(java.lang.String) Test@123,(java.lang.String) Women,(java.lang.String) Dress]
+2026-03-30 15:08:41 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-30 15:08:44 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-30 15:08:47 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-30 15:09:19 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-30 15:09:23 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-30 15:09:35 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-30 15:09:37 INFO  Listeners.TestListener - Test Started: loginWithInvalidPassword
+2026-03-30 15:09:40 INFO  Listeners.TestListener - Test Passed: loginWithInvalidPassword
+2026-03-30 15:09:43 INFO  Listeners.TestListener - Test Started: loginWithValidCredential
+2026-03-30 15:09:48 INFO  Listeners.TestListener - Test Passed: loginWithValidCredential
+2026-03-30 15:09:51 INFO  Listeners.TestListener - Test Started: loginWithValidCredential
+2026-03-30 15:09:59 INFO  Listeners.TestListener - Test Passed: loginWithValidCredential
+2026-03-30 15:10:02 INFO  Listeners.TestListener - Test Started: loginWithValidCredential
+2026-03-30 15:10:07 INFO  Listeners.TestListener - Test Passed: loginWithValidCredential
+2026-03-30 15:10:10 INFO  Listeners.TestListener - Test Started: verifyCategoryAfterLogin
+2026-03-30 15:10:28 INFO  Listeners.TestListener - Test Passed: verifyCategoryAfterLogin
+2026-03-30 15:10:31 INFO  Listeners.TestListener - Test Started: verifyCategoryAfterLogin
+2026-03-30 15:10:48 INFO  Listeners.TestListener - Test Passed: verifyCategoryAfterLogin
+2026-03-30 15:10:51 INFO  Listeners.TestListener - Test Started: verifyCategoryAfterLogin
+2026-03-30 15:11:35 INFO  Listeners.TestListener - Test Passed: verifyCategoryAfterLogin

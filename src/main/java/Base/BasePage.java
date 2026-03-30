@@ -19,33 +19,50 @@ public class BasePage {
 		wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 	}
 
+	public void handleVignetteAd() {
+
+		try {
+
+			if (driver.getCurrentUrl().contains("google_vignette")) {
+
+				System.out.println("Vignette Ad Detected");
+
+				driver.navigate().back();
+
+			}
+
+		} catch (Exception e) {
+
+			System.out.println("No Vignette Ad");
+
+		}
+
+	}
+
 	// Robust click method
 
 	public void click(By locator) {
-	    WebElement element = wait.until(ExpectedConditions.presenceOfElementLocated(locator));
+		WebElement element = wait.until(ExpectedConditions.presenceOfElementLocated(locator));
 
-	    try {
-	        // Scroll element to center so nothing covers it
-	        ((JavascriptExecutor) driver)
-	            .executeScript("arguments[0].scrollIntoView({block:'center'});", element);
+		try {
+			// Scroll element to center so nothing covers it
+			((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({block:'center'});", element);
 
-	        wait.until(ExpectedConditions.elementToBeClickable(locator)).click();
+			wait.until(ExpectedConditions.elementToBeClickable(locator)).click();
 
-	    } catch (Exception e) {
-	        // JS click fallback (bypasses overlays)
-	        ((JavascriptExecutor) driver)
-	            .executeScript("arguments[0].click();", element);
-	    }
+		} catch (Exception e) {
+			// JS click fallback (bypasses overlays)
+			((JavascriptExecutor) driver).executeScript("arguments[0].click();", element);
+		}
 	}
-	
+
 	// Robust remove ad
 	public void removeBottomAdIfPresent() {
-	    try {
-	        ((JavascriptExecutor) driver).executeScript(
-	            "var ads = document.querySelectorAll('iframe');" +
-	            "ads.forEach(a => { if (a.src && a.src.includes('google')) a.remove(); });"
-	        );
-	    } catch (Exception ignored) {}
+		try {
+			((JavascriptExecutor) driver).executeScript("var ads = document.querySelectorAll('iframe');"
+					+ "ads.forEach(a => { if (a.src && a.src.includes('google')) a.remove(); });");
+		} catch (Exception ignored) {
+		}
 	}
 
 	// Robust type method
@@ -84,6 +101,23 @@ public class BasePage {
 
 				break;
 			}
+		}
+
+	}
+
+	// Robust Element displayed
+	public boolean isElementDisplayed(By locator) {
+
+		try {
+
+			wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+
+			return driver.findElement(locator).isDisplayed();
+
+		} catch (Exception e) {
+
+			return false;
+
 		}
 
 	}

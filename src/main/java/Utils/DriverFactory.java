@@ -23,15 +23,29 @@ public class DriverFactory {
 
 		Map<String, Object> prefs = new HashMap<>();
 
+		// Disable password popup
 		prefs.put("credentials_enable_service", false);
 		prefs.put("profile.password_manager_enabled", false);
 		prefs.put("profile.autofill_profile_enabled", false);
 		prefs.put("autofill.profile_enabled", false);
 
+		// Disable notifications
+		prefs.put("profile.default_content_setting_values.notifications", 2);
+
 		options.setExperimentalOption("prefs", prefs);
 
+		// Additional blocking args
 		options.addArguments("--disable-save-password-bubble");
 		options.addArguments("--disable-notifications");
+
+		options.addArguments("--disable-infobars");
+
+		options.addArguments("--disable-extensions");
+
+		options.addArguments("--disable-popup-blocking");
+
+		options.addArguments("--disable-geolocation");
+		
 		if (browser.equalsIgnoreCase("chrome")) {
 
 			WebDriverManager.chromedriver().setup();
@@ -45,6 +59,8 @@ public class DriverFactory {
 		return tlDriver.get();
 
 	}
+	
+	
 
 	public static void quitDriver() {
 		if (tlDriver.get() != null) {
