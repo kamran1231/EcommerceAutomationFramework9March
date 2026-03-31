@@ -736,3 +736,145 @@ Arguments: [(java.lang.String) kamran44@mailinator.com,(java.lang.String) Test@1
 2026-03-31 04:57:05 INFO  Listeners.TestListener - Test Passed: verifyCategoryAfterLogin
 2026-03-31 04:57:10 INFO  Listeners.TestListener - Test Started: verifyCategoryAfterLogin
 2026-03-31 04:57:20 INFO  Listeners.TestListener - Test Passed: verifyCategoryAfterLogin
+2026-03-31 16:24:24 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-31 16:24:27 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-31 16:24:31 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-31 16:24:57 ERROR Listeners.TestListener - Test Failed: validSignupTest
+2026-03-31 16:24:57 ERROR Listeners.TestListener - Reason: org.openqa.selenium.WebDriverException: tab crashed
+  (Session info: chrome=145.0.7632.116) (error code: "tab crashed")
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a154d7b6bd9ab2413059c0879eb047e5, sendKeysToElement {id=f.8F0BF970B60775704BB16223C2CE0EA2.d.C6332C5F07632096FE835175E0AE6D27.e.52, value=[Ljava.lang.CharSequence;@5034f5dd}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.116, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:35531}, goog:processID: 471, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.17.0.2:4444/sessio..., se:cdpVersion: 145.0.7632.116, se:containerName: f050373ddf67, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.17.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.17.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on linux (a154d7b6bd9ab2413059c0879eb047e5)] -> xpath: //input[@id='password']]
+Session ID: a154d7b6bd9ab2413059c0879eb047e5
+2026-03-31 16:25:00 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-31 16:25:34 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-31 16:25:39 INFO  Listeners.TestListener - Test Started: loginWithInvalidPassword
+2026-03-31 16:25:41 INFO  Listeners.TestListener - Test Passed: loginWithInvalidPassword
+2026-03-31 16:25:44 INFO  Listeners.TestListener - Test Started: loginWithValidCredential
+2026-03-31 16:25:48 INFO  Listeners.TestListener - Test Passed: loginWithValidCredential
+2026-03-31 16:25:50 INFO  Listeners.TestListener - Test Started: loginWithValidCredential
+2026-03-31 16:25:56 INFO  Listeners.TestListener - Test Passed: loginWithValidCredential
+2026-03-31 16:26:19 INFO  Listeners.TestListener - Test Started: loginWithValidCredential
+2026-03-31 16:26:43 ERROR Listeners.TestListener - Test Failed: loginWithValidCredential
+2026-03-31 16:26:43 ERROR Listeners.TestListener - Reason: org.openqa.selenium.WebDriverException: tab crashed
+  (Session info: chrome=145.0.7632.116) (error code: "tab crashed")
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [81b04dd92de5b7306b1aa0e77a110b51, executeScript {script=arguments[0].click();, args=[{element-6066-11e4-a52e-4f735466cecf=f.5BC7413A968227D968EAC36E44317FD1.d.6B9EE2EA5BF04DE20B74E86E727C13E0.e.26}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.116, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:42883}, goog:processID: 1784, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.17.0.2:4444/sessio..., se:cdpVersion: 145.0.7632.116, se:containerName: f050373ddf67, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.17.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.17.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 81b04dd92de5b7306b1aa0e77a110b51
+2026-03-31 16:26:48 INFO  Listeners.TestListener - Test Started: verifyBrandSelection
+2026-03-31 16:27:15 ERROR Listeners.TestListener - Test Failed: verifyBrandSelection
+2026-03-31 16:27:15 ERROR Listeners.TestListener - Reason: org.openqa.selenium.WebDriverException: tab crashed
+  (Session info: chrome=145.0.7632.116) (error code: "tab crashed")
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [5048656bfd8750d14149a93486a5b1f1, executeScript {script=arguments[0].click();, args=[{element-6066-11e4-a52e-4f735466cecf=f.FC95383F320963D956043B3BA2E0166F.d.8A6369CFEEF8F9EED10ACBEE6F4BEAD5.e.40}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.116, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:42675}, goog:processID: 2003, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.17.0.2:4444/sessio..., se:cdpVersion: 145.0.7632.116, se:containerName: f050373ddf67, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.17.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.17.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5048656bfd8750d14149a93486a5b1f1
+2026-03-31 16:27:18 INFO  Listeners.TestListener - Test Started: verifyBrandSelection
+2026-03-31 16:33:00 ERROR Listeners.TestListener - Test Failed: verifyBrandSelection
+2026-03-31 16:33:00 ERROR Listeners.TestListener - Reason: org.openqa.selenium.WebDriverException: Unable to execute request for an existing session: java.io.IOException: closed
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [775bd6f97d2bcf704fad16960084c604, executeScript {script=arguments[0].click();, args=[{element-6066-11e4-a52e-4f735466cecf=f.2E66681940C22AAE20EA520135EE2488.d.EACD130863779BACBE747656ED4656BE.e.11}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.116, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:40919}, goog:processID: 2232, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.17.0.2:4444/sessio..., se:cdpVersion: 145.0.7632.116, se:containerName: f050373ddf67, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.17.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.17.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 775bd6f97d2bcf704fad16960084c604
+2026-03-31 16:33:03 INFO  Listeners.TestListener - Test Started: verifyBrandSelection
+2026-03-31 16:33:22 ERROR Listeners.TestListener - Test Failed: verifyBrandSelection
+2026-03-31 16:33:22 ERROR Listeners.TestListener - Reason: org.openqa.selenium.WebDriverException: tab crashed
+  (Session info: chrome=145.0.7632.116) (error code: "tab crashed")
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [8e086f15015a2b2684a1d4cdaf6fc996, findElement {using=xpath, value=//div[contains(@class,'item') and contains(@class,'active')]//h2[contains(text(),'Full-Fledged practice website')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.116, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:43655}, goog:processID: 2518, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.17.0.2:4444/sessio..., se:cdpVersion: 145.0.7632.116, se:containerName: f050373ddf67, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.17.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.17.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8e086f15015a2b2684a1d4cdaf6fc996
+2026-03-31 16:33:27 INFO  Listeners.TestListener - Test Started: verifyCategoryAfterLogin
+2026-03-31 16:33:53 ERROR Listeners.TestListener - Test Failed: verifyCategoryAfterLogin
+2026-03-31 16:33:53 ERROR Listeners.TestListener - Reason: org.openqa.selenium.WebDriverException: tab crashed
+  (Session info: chrome=145.0.7632.116) (error code: "tab crashed")
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [4c0c6a3974b7f331755fb35a89e0d924, executeScript {script=arguments[0].click();, args=[{element-6066-11e4-a52e-4f735466cecf=f.9FAEE5EAB6B140958C7559ABFA866D5C.d.AA664952544D07E6A56E794C940F1DCB.e.12}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.116, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:40749}, goog:processID: 2731, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.17.0.2:4444/sessio..., se:cdpVersion: 145.0.7632.116, se:containerName: f050373ddf67, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.17.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.17.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4c0c6a3974b7f331755fb35a89e0d924
+2026-03-31 16:33:55 INFO  Listeners.TestListener - Test Started: verifyCategoryAfterLogin
+2026-03-31 16:34:20 ERROR Listeners.TestListener - Test Failed: verifyCategoryAfterLogin
+2026-03-31 16:34:20 ERROR Listeners.TestListener - Reason: org.openqa.selenium.WebDriverException: tab crashed
+  (Session info: chrome=145.0.7632.116) (error code: "tab crashed")
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [5920df073e983ac2ca2e9a0bc002ac60, findElement {using=xpath, value=//div[@id='Women']//a[normalize-space()='Tops']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.116, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:38849}, goog:processID: 2948, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.17.0.2:4444/sessio..., se:cdpVersion: 145.0.7632.116, se:containerName: f050373ddf67, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.17.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.17.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5920df073e983ac2ca2e9a0bc002ac60
+2026-03-31 16:34:25 INFO  Listeners.TestListener - Test Started: verifyCategoryAfterLogin
+2026-03-31 16:34:50 ERROR Listeners.TestListener - Test Failed: verifyCategoryAfterLogin
+2026-03-31 16:34:50 ERROR Listeners.TestListener - Reason: org.openqa.selenium.WebDriverException: tab crashed
+  (Session info: chrome=145.0.7632.116) (error code: "tab crashed")
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [9fb8c5faa20fa722538848ea57224815, executeScript {script=arguments[0].click();, args=[{element-6066-11e4-a52e-4f735466cecf=f.B3AA756B11B261B5CE4F3F906B9AF06B.d.1CAB7892F148B9F234503969B2330BE4.e.43}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.116, chrome: {chromedriverVersion: 145.0.7632.117 (de4e5d6e13b..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:39863}, goog:processID: 3266, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.17.0.2:4444/sessio..., se:cdpVersion: 145.0.7632.116, se:containerName: f050373ddf67, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.17.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.17.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9fb8c5faa20fa722538848ea57224815
+2026-03-31 16:36:13 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-31 16:36:18 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-31 16:36:23 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-31 16:36:44 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-31 16:36:49 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-31 16:37:07 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-31 16:37:12 INFO  Listeners.TestListener - Test Started: loginWithInvalidPassword
+2026-03-31 16:37:15 INFO  Listeners.TestListener - Test Passed: loginWithInvalidPassword
+2026-03-31 16:37:20 INFO  Listeners.TestListener - Test Started: loginWithValidCredential
+2026-03-31 16:37:25 INFO  Listeners.TestListener - Test Passed: loginWithValidCredential
+2026-03-31 16:37:30 INFO  Listeners.TestListener - Test Started: loginWithValidCredential
+2026-03-31 16:37:35 INFO  Listeners.TestListener - Test Passed: loginWithValidCredential
+2026-03-31 16:37:45 INFO  Listeners.TestListener - Test Started: loginWithValidCredential
+2026-03-31 16:37:57 INFO  Listeners.TestListener - Test Passed: loginWithValidCredential
+2026-03-31 16:38:01 INFO  Listeners.TestListener - Test Started: verifyBrandSelection
+2026-03-31 16:38:14 INFO  Listeners.TestListener - Test Passed: verifyBrandSelection
+2026-03-31 16:38:16 INFO  Listeners.TestListener - Test Started: verifyBrandSelection
+2026-03-31 16:38:27 INFO  Listeners.TestListener - Test Passed: verifyBrandSelection
+2026-03-31 16:38:32 INFO  Listeners.TestListener - Test Started: verifyBrandSelection
+2026-03-31 16:38:44 INFO  Listeners.TestListener - Test Passed: verifyBrandSelection
+2026-03-31 16:38:46 INFO  Listeners.TestListener - Test Started: verifyCategoryAfterLogin
+2026-03-31 16:38:54 INFO  Listeners.TestListener - Test Passed: verifyCategoryAfterLogin
+2026-03-31 16:38:59 INFO  Listeners.TestListener - Test Started: verifyCategoryAfterLogin
+2026-03-31 16:39:08 INFO  Listeners.TestListener - Test Passed: verifyCategoryAfterLogin
+2026-03-31 16:39:13 INFO  Listeners.TestListener - Test Started: verifyCategoryAfterLogin
+2026-03-31 16:39:23 INFO  Listeners.TestListener - Test Passed: verifyCategoryAfterLogin
+2026-03-31 16:47:39 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+2026-03-31 16:47:44 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+2026-03-31 16:47:50 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-31 16:48:12 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-31 16:48:17 INFO  Listeners.TestListener - Test Started: validSignupTest
+2026-03-31 16:48:33 INFO  Listeners.TestListener - Test Passed: validSignupTest
+2026-03-31 16:48:37 INFO  Listeners.TestListener - Test Started: loginWithInvalidPassword
+2026-03-31 16:48:40 INFO  Listeners.TestListener - Test Passed: loginWithInvalidPassword
+2026-03-31 16:48:44 INFO  Listeners.TestListener - Test Started: loginWithValidCredential
+2026-03-31 16:48:50 INFO  Listeners.TestListener - Test Passed: loginWithValidCredential
+2026-03-31 16:48:54 INFO  Listeners.TestListener - Test Started: loginWithValidCredential
+2026-03-31 16:49:01 INFO  Listeners.TestListener - Test Passed: loginWithValidCredential
+2026-03-31 16:49:04 INFO  Listeners.TestListener - Test Started: loginWithValidCredential
+2026-03-31 16:49:09 INFO  Listeners.TestListener - Test Passed: loginWithValidCredential
+2026-03-31 16:49:12 INFO  Listeners.TestListener - Test Started: verifyBrandSelection
+2026-03-31 16:49:22 INFO  Listeners.TestListener - Test Passed: verifyBrandSelection
+2026-03-31 16:49:25 INFO  Listeners.TestListener - Test Started: verifyBrandSelection
+2026-03-31 16:49:39 INFO  Listeners.TestListener - Test Passed: verifyBrandSelection
+2026-03-31 16:49:42 INFO  Listeners.TestListener - Test Started: verifyBrandSelection
+2026-03-31 16:49:52 INFO  Listeners.TestListener - Test Passed: verifyBrandSelection
+2026-03-31 16:49:57 INFO  Listeners.TestListener - Test Started: verifyCategoryAfterLogin
+2026-03-31 16:50:06 INFO  Listeners.TestListener - Test Passed: verifyCategoryAfterLogin
+2026-03-31 16:50:09 INFO  Listeners.TestListener - Test Started: verifyCategoryAfterLogin
+2026-03-31 16:50:17 INFO  Listeners.TestListener - Test Passed: verifyCategoryAfterLogin
+2026-03-31 16:50:20 INFO  Listeners.TestListener - Test Started: verifyCategoryAfterLogin
+2026-03-31 16:50:33 INFO  Listeners.TestListener - Test Passed: verifyCategoryAfterLogin

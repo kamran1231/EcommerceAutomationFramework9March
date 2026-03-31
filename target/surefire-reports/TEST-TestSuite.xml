@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="191.889" tests="13" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="181.304" tests="13" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="25"/>
-    <property name="webdriver.chrome.driver" value="C:\Users\khanb\.cache\selenium\chromedriver\win64\147.0.7727.24\chromedriver.exe"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.class.path" value="C:\Users\khanb\eclipse-workspace\EcommerceWeb3March\target\test-classes;C:\Users\khanb\eclipse-workspace\EcommerceWeb3March\target\classes;C:\Users\khanb\.m2\repository\org\seleniumhq\selenium\selenium-java\4.41.0\selenium-java-4.41.0.jar;C:\Users\khanb\.m2\repository\org\seleniumhq\selenium\selenium-api\4.41.0\selenium-api-4.41.0.jar;C:\Users\khanb\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\khanb\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.41.0\selenium-chrome-driver-4.41.0.jar;C:\Users\khanb\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\khanb\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.41.0\selenium-chromium-driver-4.41.0.jar;C:\Users\khanb\.m2\repository\org\seleniumhq\selenium\selenium-json\4.41.0\selenium-json-4.41.0.jar;C:\Users\khanb\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.41.0\selenium-manager-4.41.0.jar;C:\Users\khanb\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v143\4.41.0\selenium-devtools-v143-4.41.0.jar;C:\Users\khanb\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v144\4.41.0\selenium-devtools-v144-4.41.0.jar;C:\Users\khanb\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v145\4.41.0\selenium-devtools-v145-4.41.0.jar;C:\Users\khanb\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.41.0\selenium-edge-driver-4.41.0.jar;C:\Users\khanb\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.41.0\selenium-firefox-driver-4.41.0.jar;C:\Users\khanb\.m2\repository\org\seleniumhq\selenium\selenium-http\4.41.0\selenium-http-4.41.0.jar;C:\Users\khanb\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.41.0\selenium-ie-driver-4.41.0.jar;C:\Users\khanb\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.41.0\selenium-remote-driver-4.41.0.jar;C:\Users\khanb\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\khanb\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\khanb\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\khanb\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\khanb\.m2\repository\io\opentelemetry\opentelemetry-api\1.59.0\opentelemetry-api-1.59.0.jar;C:\Users\khanb\.m2\repository\io\opentelemetry\opentelemetry-context\1.59.0\opentelemetry-context-1.59.0.jar;C:\Users\khanb\.m2\repository\io\opentelemetry\opentelemetry-common\1.59.0\opentelemetry-common-1.59.0.jar;C:\Users\khanb\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.59.0\opentelemetry-exporter-logging-1.59.0.jar;C:\Users\khanb\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.59.0\opentelemetry-sdk-common-1.59.0.jar;C:\Users\khanb\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.59.0\opentelemetry-sdk-extension-autoconfigure-spi-1.59.0.jar;C:\Users\khanb\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.59.0\opentelemetry-sdk-extension-autoconfigure-1.59.0.jar;C:\Users\khanb\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.59.0\opentelemetry-sdk-trace-1.59.0.jar;C:\Users\khanb\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.59.0\opentelemetry-sdk-1.59.0.jar;C:\Users\khanb\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.59.0\opentelemetry-sdk-metrics-1.59.0.jar;C:\Users\khanb\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.59.0\opentelemetry-sdk-logs-1.59.0.jar;C:\Users\khanb\.m2\repository\net\bytebuddy\byte-buddy\1.18.5\byte-buddy-1.18.5.jar;C:\Users\khanb\.m2\repository\org\seleniumhq\selenium\selenium-os\4.41.0\selenium-os-4.41.0.jar;C:\Users\khanb\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.41.0\selenium-safari-driver-4.41.0.jar;C:\Users\khanb\.m2\repository\org\seleniumhq\selenium\selenium-support\4.41.0\selenium-support-4.41.0.jar;C:\Users\khanb\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\khanb\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\khanb\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\khanb\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\khanb\.m2\repository\io\github\bonigarcia\webdrivermanager\6.3.3\webdrivermanager-6.3.3.jar;C:\Users\khanb\.m2\repository\com\google\code\gson\gson\2.13.2\gson-2.13.2.jar;C:\Users\khanb\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\khanb\.m2\repository\com\github\docker-java\docker-java\3.6.0\docker-java-3.6.0.jar;C:\Users\khanb\.m2\repository\com\github\docker-java\docker-java-core\3.6.0\docker-java-core-3.6.0.jar;C:\Users\khanb\.m2\repository\com\github\docker-java\docker-java-api\3.6.0\docker-java-api-3.6.0.jar;C:\Users\khanb\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.19.2\jackson-annotations-2.19.2.jar;C:\Users\khanb\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.19.2\jackson-databind-2.19.2.jar;C:\Users\khanb\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.19.2\jackson-core-2.19.2.jar;C:\Users\khanb\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\khanb\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.6.0\docker-java-transport-httpclient5-3.6.0.jar;C:\Users\khanb\.m2\repository\com\github\docker-java\docker-java-transport\3.6.0\docker-java-transport-3.6.0.jar;C:\Users\khanb\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\khanb\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\khanb\.m2\repository\org\apache\commons\commons-lang3\3.19.0\commons-lang3-3.19.0.jar;C:\Users\khanb\.m2\repository\org\apache\commons\commons-compress\1.28.0\commons-compress-1.28.0.jar;C:\Users\khanb\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.3\httpclient5-5.4.3.jar;C:\Users\khanb\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar;C:\Users\khanb\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar;C:\Users\khanb\.m2\repository\org\apache\poi\poi\5.5.1\poi-5.5.1.jar;C:\Users\khanb\.m2\repository\commons-codec\commons-codec\1.20.0\commons-codec-1.20.0.jar;C:\Users\khanb\.m2\repository\org\apache\commons\commons-collections4\4.5.0\commons-collections4-4.5.0.jar;C:\Users\khanb\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\khanb\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\khanb\.m2\repository\commons-io\commons-io\2.21.0\commons-io-2.21.0.jar;C:\Users\khanb\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.3\log4j-core-2.25.3.jar;C:\Users\khanb\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.3\log4j-api-2.25.3.jar;C:\Users\khanb\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\khanb\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\khanb\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\khanb\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\khanb\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\khanb\.m2\repository\org\slf4j\slf4j-simple\2.0.12\slf4j-simple-2.0.12.jar;C:\Users\khanb\.m2\repository\org\apache\poi\poi-ooxml\5.5.1\poi-ooxml-5.5.1.jar;C:\Users\khanb\.m2\repository\org\apache\poi\poi-ooxml-lite\5.5.1\poi-ooxml-lite-5.5.1.jar;C:\Users\khanb\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\khanb\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;"/>
@@ -16,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
-    <property name="sun.java.command" value="C:\Users\khanb\AppData\Local\Temp\surefire13782383013824400391\surefirebooter-20260331045408469_3.jar C:\Users\khanb\AppData\Local\Temp\surefire13782383013824400391 2026-03-31T04-54-08_350-jvmRun1 surefire-20260331045408469_1tmp surefire_0-20260331045408469_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\khanb\AppData\Local\Temp\surefire1001442580106794494\surefirebooter-20260331164732754_3.jar C:\Users\khanb\AppData\Local\Temp\surefire1001442580106794494 2026-03-31T16-47-32_639-jvmRun1 surefire-20260331164732754_1tmp surefire_0-20260331164732754_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\khanb\eclipse-workspace\EcommerceWeb3March\target\test-classes;C:\Users\khanb\eclipse-workspace\EcommerceWeb3March\target\classes;C:\Users\khanb\.m2\repository\org\seleniumhq\selenium\selenium-java\4.41.0\selenium-java-4.41.0.jar;C:\Users\khanb\.m2\repository\org\seleniumhq\selenium\selenium-api\4.41.0\selenium-api-4.41.0.jar;C:\Users\khanb\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\khanb\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.41.0\selenium-chrome-driver-4.41.0.jar;C:\Users\khanb\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\khanb\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.41.0\selenium-chromium-driver-4.41.0.jar;C:\Users\khanb\.m2\repository\org\seleniumhq\selenium\selenium-json\4.41.0\selenium-json-4.41.0.jar;C:\Users\khanb\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.41.0\selenium-manager-4.41.0.jar;C:\Users\khanb\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v143\4.41.0\selenium-devtools-v143-4.41.0.jar;C:\Users\khanb\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v144\4.41.0\selenium-devtools-v144-4.41.0.jar;C:\Users\khanb\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v145\4.41.0\selenium-devtools-v145-4.41.0.jar;C:\Users\khanb\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.41.0\selenium-edge-driver-4.41.0.jar;C:\Users\khanb\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.41.0\selenium-firefox-driver-4.41.0.jar;C:\Users\khanb\.m2\repository\org\seleniumhq\selenium\selenium-http\4.41.0\selenium-http-4.41.0.jar;C:\Users\khanb\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.41.0\selenium-ie-driver-4.41.0.jar;C:\Users\khanb\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.41.0\selenium-remote-driver-4.41.0.jar;C:\Users\khanb\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\khanb\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\khanb\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\khanb\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\khanb\.m2\repository\io\opentelemetry\opentelemetry-api\1.59.0\opentelemetry-api-1.59.0.jar;C:\Users\khanb\.m2\repository\io\opentelemetry\opentelemetry-context\1.59.0\opentelemetry-context-1.59.0.jar;C:\Users\khanb\.m2\repository\io\opentelemetry\opentelemetry-common\1.59.0\opentelemetry-common-1.59.0.jar;C:\Users\khanb\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.59.0\opentelemetry-exporter-logging-1.59.0.jar;C:\Users\khanb\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.59.0\opentelemetry-sdk-common-1.59.0.jar;C:\Users\khanb\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.59.0\opentelemetry-sdk-extension-autoconfigure-spi-1.59.0.jar;C:\Users\khanb\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.59.0\opentelemetry-sdk-extension-autoconfigure-1.59.0.jar;C:\Users\khanb\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.59.0\opentelemetry-sdk-trace-1.59.0.jar;C:\Users\khanb\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.59.0\opentelemetry-sdk-1.59.0.jar;C:\Users\khanb\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.59.0\opentelemetry-sdk-metrics-1.59.0.jar;C:\Users\khanb\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.59.0\opentelemetry-sdk-logs-1.59.0.jar;C:\Users\khanb\.m2\repository\net\bytebuddy\byte-buddy\1.18.5\byte-buddy-1.18.5.jar;C:\Users\khanb\.m2\repository\org\seleniumhq\selenium\selenium-os\4.41.0\selenium-os-4.41.0.jar;C:\Users\khanb\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.41.0\selenium-safari-driver-4.41.0.jar;C:\Users\khanb\.m2\repository\org\seleniumhq\selenium\selenium-support\4.41.0\selenium-support-4.41.0.jar;C:\Users\khanb\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\khanb\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\khanb\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\khanb\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\khanb\.m2\repository\io\github\bonigarcia\webdrivermanager\6.3.3\webdrivermanager-6.3.3.jar;C:\Users\khanb\.m2\repository\com\google\code\gson\gson\2.13.2\gson-2.13.2.jar;C:\Users\khanb\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\khanb\.m2\repository\com\github\docker-java\docker-java\3.6.0\docker-java-3.6.0.jar;C:\Users\khanb\.m2\repository\com\github\docker-java\docker-java-core\3.6.0\docker-java-core-3.6.0.jar;C:\Users\khanb\.m2\repository\com\github\docker-java\docker-java-api\3.6.0\docker-java-api-3.6.0.jar;C:\Users\khanb\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.19.2\jackson-annotations-2.19.2.jar;C:\Users\khanb\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.19.2\jackson-databind-2.19.2.jar;C:\Users\khanb\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.19.2\jackson-core-2.19.2.jar;C:\Users\khanb\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\khanb\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.6.0\docker-java-transport-httpclient5-3.6.0.jar;C:\Users\khanb\.m2\repository\com\github\docker-java\docker-java-transport\3.6.0\docker-java-transport-3.6.0.jar;C:\Users\khanb\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\khanb\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\khanb\.m2\repository\org\apache\commons\commons-lang3\3.19.0\commons-lang3-3.19.0.jar;C:\Users\khanb\.m2\repository\org\apache\commons\commons-compress\1.28.0\commons-compress-1.28.0.jar;C:\Users\khanb\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.3\httpclient5-5.4.3.jar;C:\Users\khanb\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar;C:\Users\khanb\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar;C:\Users\khanb\.m2\repository\org\apache\poi\poi\5.5.1\poi-5.5.1.jar;C:\Users\khanb\.m2\repository\commons-codec\commons-codec\1.20.0\commons-codec-1.20.0.jar;C:\Users\khanb\.m2\repository\org\apache\commons\commons-collections4\4.5.0\commons-collections4-4.5.0.jar;C:\Users\khanb\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\khanb\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\khanb\.m2\repository\commons-io\commons-io\2.21.0\commons-io-2.21.0.jar;C:\Users\khanb\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.3\log4j-core-2.25.3.jar;C:\Users\khanb\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.3\log4j-api-2.25.3.jar;C:\Users\khanb\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\khanb\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\khanb\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\khanb\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\khanb\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\khanb\.m2\repository\org\slf4j\slf4j-simple\2.0.12\slf4j-simple-2.0.12.jar;C:\Users\khanb\.m2\repository\org\apache\poi\poi-ooxml\5.5.1\poi-ooxml-5.5.1.jar;C:\Users\khanb\.m2\repository\org\apache\poi\poi-ooxml-lite\5.5.1\poi-ooxml-lite-5.5.1.jar;C:\Users\khanb\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\khanb\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -25,25 +24,29 @@
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.version.date" value="2025-09-16"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-25"/>
+    <property name="runMode" value="docker"/>
     <property name="file.separator" value="\"/>
     <property name="basedir" value="C:\Users\khanb\eclipse-workspace\EcommerceWeb3March"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\khanb\AppData\Local\Temp\surefire13782383013824400391\surefirebooter-20260331045408469_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\khanb\AppData\Local\Temp\surefire1001442580106794494\surefirebooter-20260331164732754_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="25+37-LTS-3491"/>
     <property name="user.name" value="khanb"/>
     <property name="stdout.encoding" value="Cp1252"/>
     <property name="path.separator" value=";"/>
+    <property name="otel.metrics.exporter" value="none"/>
     <property name="os.version" value="10.0"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="otel.traces.exporter" value="none"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="localRepository" value="C:\Users\khanb\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="otel.logs.exporter" value="none"/>
     <property name="java.io.tmpdir" value="C:\Users\khanb\AppData\Local\Temp\"/>
     <property name="java.version" value="25"/>
     <property name="user.dir" value="C:\Users\khanb\eclipse-workspace\EcommerceWeb3March"/>
@@ -60,136 +63,74 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="signupWithExistingEmailTest" classname="Tests.SignUpTest" time="4.81">
-    <system-out><![CDATA[04:54:15 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
-04:54:19 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
+  <testcase name="signupWithExistingEmailTest" classname="Tests.SignUpTest" time="5.014">
+    <system-out><![CDATA[16:47:39 INFO  Listeners.TestListener - Test Started: signupWithExistingEmailTest
+16:47:44 INFO  Listeners.TestListener - Test Passed: signupWithExistingEmailTest
 ]]></system-out>
-    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.24 (resolved driver for Chrome 147)
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\khanb\.cache\selenium\chromedriver\win64\147.0.7727.24\chromedriver.exe
-Mar 31, 2026 4:54:11 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 147, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 147
+    <system-err><![CDATA[Mar 31, 2026 4:47:34 PM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
+INFO: Using OpenTelemetry for tracing
 ]]></system-err>
   </testcase>
-  <testcase name="validSignupTest[Mr, kamran, Test@123, 10, May, 1998, Kamran, Khan, ABC Company, Delhi India, Delhi, India, Delhi, Delhi, 110001, 9999999999](1)" classname="Tests.SignUpTest" time="13.357">
-    <system-out><![CDATA[04:54:24 INFO  Listeners.TestListener - Test Started: validSignupTest
+  <testcase name="validSignupTest[Mr, kamran, Test@123, 10, May, 1998, Kamran, Khan, ABC Company, Delhi India, Delhi, India, Delhi, Delhi, 110001, 9999999999](1)" classname="Tests.SignUpTest" time="22.728">
+    <system-out><![CDATA[16:47:50 INFO  Listeners.TestListener - Test Started: validSignupTest
 Selecting DOB: 10 May 1998
-04:54:37 INFO  Listeners.TestListener - Test Passed: validSignupTest
+16:48:12 INFO  Listeners.TestListener - Test Passed: validSignupTest
 ]]></system-out>
-    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.24 (resolved driver for Chrome 147)
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\khanb\.cache\selenium\chromedriver\win64\147.0.7727.24\chromedriver.exe
-Mar 31, 2026 4:54:21 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 147, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 147
-]]></system-err>
   </testcase>
-  <testcase name="validSignupTest[Mrs, sara, Test@123, 5, March, 1995, Sara, Khan, XYZ Company, Mumbai India, Mumbai, India, Maharashtra, Mumbai, 400001, 8888888888](2)" classname="Tests.SignUpTest" time="12.801">
-    <system-out><![CDATA[04:54:43 INFO  Listeners.TestListener - Test Started: validSignupTest
+  <testcase name="validSignupTest[Mrs, sara, Test@123, 5, March, 1995, Sara, Khan, XYZ Company, Mumbai India, Mumbai, India, Maharashtra, Mumbai, 400001, 8888888888](2)" classname="Tests.SignUpTest" time="16.51">
+    <system-out><![CDATA[16:48:17 INFO  Listeners.TestListener - Test Started: validSignupTest
 Selecting DOB: 5 March 1995
-04:54:56 INFO  Listeners.TestListener - Test Passed: validSignupTest
+16:48:33 INFO  Listeners.TestListener - Test Passed: validSignupTest
 ]]></system-out>
-    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.24 (resolved driver for Chrome 147)
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\khanb\.cache\selenium\chromedriver\win64\147.0.7727.24\chromedriver.exe
-Mar 31, 2026 4:54:38 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 147, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 147
-]]></system-err>
   </testcase>
-  <testcase name="loginWithInvalidPassword[wrong@test.com, Test@123](1)" classname="Tests.LoginTest" time="3.998">
-    <system-out><![CDATA[04:55:01 INFO  Listeners.TestListener - Test Started: loginWithInvalidPassword
-04:55:05 INFO  Listeners.TestListener - Test Passed: loginWithInvalidPassword
+  <testcase name="loginWithInvalidPassword[wrong@test.com, Test@123](1)" classname="Tests.LoginTest" time="3.208">
+    <system-out><![CDATA[16:48:37 INFO  Listeners.TestListener - Test Started: loginWithInvalidPassword
+16:48:40 INFO  Listeners.TestListener - Test Passed: loginWithInvalidPassword
 ]]></system-out>
-    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.24 (resolved driver for Chrome 147)
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\khanb\.cache\selenium\chromedriver\win64\147.0.7727.24\chromedriver.exe
-Mar 31, 2026 4:54:57 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 147, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 147
-]]></system-err>
   </testcase>
-  <testcase name="loginWithValidCredential[kamran44@mailinator.com, Test@123, Women, Dress, Polo](1)" classname="Tests.LoginTest" time="4.776">
-    <system-out><![CDATA[04:55:10 INFO  Listeners.TestListener - Test Started: loginWithValidCredential
-04:55:15 INFO  Listeners.TestListener - Test Passed: loginWithValidCredential
+  <testcase name="loginWithValidCredential[kamran44@mailinator.com, Test@123, Women, Dress, Polo](1)" classname="Tests.LoginTest" time="6.691">
+    <system-out><![CDATA[16:48:44 INFO  Listeners.TestListener - Test Started: loginWithValidCredential
+16:48:50 INFO  Listeners.TestListener - Test Passed: loginWithValidCredential
 ]]></system-out>
-    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.24 (resolved driver for Chrome 147)
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\khanb\.cache\selenium\chromedriver\win64\147.0.7727.24\chromedriver.exe
-Mar 31, 2026 4:55:06 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 147, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 147
-]]></system-err>
   </testcase>
-  <testcase name="loginWithValidCredential[kamran44@mailinator.com, Test@123, Women, Tops, H&amp;M](2)" classname="Tests.LoginTest" time="4.431">
-    <system-out><![CDATA[04:55:18 INFO  Listeners.TestListener - Test Started: loginWithValidCredential
-04:55:23 INFO  Listeners.TestListener - Test Passed: loginWithValidCredential
+  <testcase name="loginWithValidCredential[kamran44@mailinator.com, Test@123, Women, Tops, H&amp;M](2)" classname="Tests.LoginTest" time="7.541">
+    <system-out><![CDATA[16:48:54 INFO  Listeners.TestListener - Test Started: loginWithValidCredential
+16:49:01 INFO  Listeners.TestListener - Test Passed: loginWithValidCredential
 ]]></system-out>
-    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.24 (resolved driver for Chrome 147)
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\khanb\.cache\selenium\chromedriver\win64\147.0.7727.24\chromedriver.exe
-Mar 31, 2026 4:55:16 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 147, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 147
-]]></system-err>
   </testcase>
-  <testcase name="loginWithValidCredential[kamran44@mailinator.com, Test@123, Women, Saree, Biba](3)" classname="Tests.LoginTest" time="5.546">
-    <system-out><![CDATA[04:55:26 INFO  Listeners.TestListener - Test Started: loginWithValidCredential
-04:55:31 INFO  Listeners.TestListener - Test Passed: loginWithValidCredential
+  <testcase name="loginWithValidCredential[kamran44@mailinator.com, Test@123, Women, Saree, Biba](3)" classname="Tests.LoginTest" time="5.323">
+    <system-out><![CDATA[16:49:04 INFO  Listeners.TestListener - Test Started: loginWithValidCredential
+16:49:09 INFO  Listeners.TestListener - Test Passed: loginWithValidCredential
 ]]></system-out>
-    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.24 (resolved driver for Chrome 147)
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\khanb\.cache\selenium\chromedriver\win64\147.0.7727.24\chromedriver.exe
-Mar 31, 2026 4:55:24 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 147, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 147
-]]></system-err>
   </testcase>
-  <testcase name="verifyBrandSelection[kamran44@mailinator.com, Test@123, Women, Dress, Polo](1)" classname="Tests.HomePageTest" time="7.869">
-    <system-out><![CDATA[04:55:57 INFO  Listeners.TestListener - Test Started: verifyBrandSelection
-04:56:05 INFO  Listeners.TestListener - Test Passed: verifyBrandSelection
+  <testcase name="verifyBrandSelection[kamran44@mailinator.com, Test@123, Women, Dress, Polo](1)" classname="Tests.HomePageTest" time="9.392">
+    <system-out><![CDATA[16:49:12 INFO  Listeners.TestListener - Test Started: verifyBrandSelection
+16:49:22 INFO  Listeners.TestListener - Test Passed: verifyBrandSelection
 ]]></system-out>
-    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.24 (resolved driver for Chrome 147)
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\khanb\.cache\selenium\chromedriver\win64\147.0.7727.24\chromedriver.exe
-Mar 31, 2026 4:55:32 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 147, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 147
-]]></system-err>
   </testcase>
-  <testcase name="verifyBrandSelection[kamran44@mailinator.com, Test@123, Women, Tops, H&amp;M](2)" classname="Tests.HomePageTest" time="8.887">
-    <system-out><![CDATA[04:56:09 INFO  Listeners.TestListener - Test Started: verifyBrandSelection
-04:56:18 INFO  Listeners.TestListener - Test Passed: verifyBrandSelection
+  <testcase name="verifyBrandSelection[kamran44@mailinator.com, Test@123, Women, Tops, H&amp;M](2)" classname="Tests.HomePageTest" time="14.029">
+    <system-out><![CDATA[16:49:25 INFO  Listeners.TestListener - Test Started: verifyBrandSelection
+16:49:39 INFO  Listeners.TestListener - Test Passed: verifyBrandSelection
 ]]></system-out>
-    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.24 (resolved driver for Chrome 147)
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\khanb\.cache\selenium\chromedriver\win64\147.0.7727.24\chromedriver.exe
-Mar 31, 2026 4:56:06 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 147, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 147
-]]></system-err>
   </testcase>
-  <testcase name="verifyBrandSelection[kamran44@mailinator.com, Test@123, Women, Saree, Biba](3)" classname="Tests.HomePageTest" time="12.949">
-    <system-out><![CDATA[04:56:23 INFO  Listeners.TestListener - Test Started: verifyBrandSelection
-04:56:36 INFO  Listeners.TestListener - Test Passed: verifyBrandSelection
+  <testcase name="verifyBrandSelection[kamran44@mailinator.com, Test@123, Women, Saree, Biba](3)" classname="Tests.HomePageTest" time="9.832">
+    <system-out><![CDATA[16:49:42 INFO  Listeners.TestListener - Test Started: verifyBrandSelection
+16:49:52 INFO  Listeners.TestListener - Test Passed: verifyBrandSelection
 ]]></system-out>
-    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.24 (resolved driver for Chrome 147)
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\khanb\.cache\selenium\chromedriver\win64\147.0.7727.24\chromedriver.exe
-Mar 31, 2026 4:56:19 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 147, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 147
-]]></system-err>
   </testcase>
-  <testcase name="verifyCategoryAfterLogin[kamran44@mailinator.com, Test@123, Women, Dress, Polo](1)" classname="Tests.HomePageTest" time="8.844">
-    <system-out><![CDATA[04:56:41 INFO  Listeners.TestListener - Test Started: verifyCategoryAfterLogin
-04:56:49 INFO  Listeners.TestListener - Test Passed: verifyCategoryAfterLogin
+  <testcase name="verifyCategoryAfterLogin[kamran44@mailinator.com, Test@123, Women, Dress, Polo](1)" classname="Tests.HomePageTest" time="9.054">
+    <system-out><![CDATA[16:49:57 INFO  Listeners.TestListener - Test Started: verifyCategoryAfterLogin
+16:50:06 INFO  Listeners.TestListener - Test Passed: verifyCategoryAfterLogin
 ]]></system-out>
-    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.24 (resolved driver for Chrome 147)
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\khanb\.cache\selenium\chromedriver\win64\147.0.7727.24\chromedriver.exe
-Mar 31, 2026 4:56:37 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 147, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 147
-]]></system-err>
   </testcase>
-  <testcase name="verifyCategoryAfterLogin[kamran44@mailinator.com, Test@123, Women, Tops, H&amp;M](2)" classname="Tests.HomePageTest" time="9.728">
-    <system-out><![CDATA[04:56:55 INFO  Listeners.TestListener - Test Started: verifyCategoryAfterLogin
-04:57:05 INFO  Listeners.TestListener - Test Passed: verifyCategoryAfterLogin
+  <testcase name="verifyCategoryAfterLogin[kamran44@mailinator.com, Test@123, Women, Tops, H&amp;M](2)" classname="Tests.HomePageTest" time="8.083">
+    <system-out><![CDATA[16:50:09 INFO  Listeners.TestListener - Test Started: verifyCategoryAfterLogin
+16:50:17 INFO  Listeners.TestListener - Test Passed: verifyCategoryAfterLogin
 ]]></system-out>
-    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.24 (resolved driver for Chrome 147)
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\khanb\.cache\selenium\chromedriver\win64\147.0.7727.24\chromedriver.exe
-Mar 31, 2026 4:56:51 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 147, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 147
-]]></system-err>
   </testcase>
-  <testcase name="verifyCategoryAfterLogin[kamran44@mailinator.com, Test@123, Women, Saree, Biba](3)" classname="Tests.HomePageTest" time="9.21">
-    <system-out><![CDATA[04:57:10 INFO  Listeners.TestListener - Test Started: verifyCategoryAfterLogin
-04:57:20 INFO  Listeners.TestListener - Test Passed: verifyCategoryAfterLogin
+  <testcase name="verifyCategoryAfterLogin[kamran44@mailinator.com, Test@123, Women, Saree, Biba](3)" classname="Tests.HomePageTest" time="13.105">
+    <system-out><![CDATA[16:50:20 INFO  Listeners.TestListener - Test Started: verifyCategoryAfterLogin
+16:50:33 INFO  Listeners.TestListener - Test Passed: verifyCategoryAfterLogin
 ]]></system-out>
-    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 147.0.7727.24 (resolved driver for Chrome 147)
-[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\khanb\.cache\selenium\chromedriver\win64\147.0.7727.24\chromedriver.exe
-Mar 31, 2026 4:57:07 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 147, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 147
-]]></system-err>
   </testcase>
 </testsuite>

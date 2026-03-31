@@ -1,5 +1,6 @@
 package Utils;
 
+import java.net.URL;
 import java.time.Duration;
 import java.util.HashMap;
 import java.util.Map;
@@ -7,6 +8,7 @@ import java.util.Map;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -45,11 +47,33 @@ public class DriverFactory {
 		options.addArguments("--disable-popup-blocking");
 
 		options.addArguments("--disable-geolocation");
-		
-		if (browser.equalsIgnoreCase("chrome")) {
 
-			WebDriverManager.chromedriver().setup();
-			tlDriver.set(new ChromeDriver(options));
+		try {
+
+			if (browser.equalsIgnoreCase("chrome")) {
+
+				String runMode = System.getProperty("runMode");
+
+				// LOCAL Execution
+				if (runMode == null || runMode.equalsIgnoreCase("local")) {
+
+					WebDriverManager.chromedriver().setup();
+					tlDriver.set(new ChromeDriver(options));
+
+				}
+
+				// DOCKER Execution
+				else if (runMode.equalsIgnoreCase("docker")) {
+
+					tlDriver.set(new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), options));
+
+				}
+
+			}
+
+		} catch (Exception e) {
+
+			e.printStackTrace();
 
 		}
 
@@ -59,8 +83,6 @@ public class DriverFactory {
 		return tlDriver.get();
 
 	}
-	
-	
 
 	public static void quitDriver() {
 		if (tlDriver.get() != null) {
