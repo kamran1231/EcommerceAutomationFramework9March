@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+
+  chrome:
+    image: selenium/standalone-chrome
+    container_name: selenium-chrome
+    ports:
+      - "4444:4444"
+    shm_size: "2gb"
