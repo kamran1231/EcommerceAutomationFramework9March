@@ -19,6 +19,9 @@ pipeline {
 
             steps {
 
+                echo 'Starting Docker Containers...'
+
+                bat 'docker compose down'
                 bat 'docker compose up -d'
 
             }
@@ -29,17 +32,9 @@ pipeline {
 
             steps {
 
+                echo 'Running Test Cases...'
+
                 bat 'mvn clean test -DrunMode=docker'
-
-            }
-
-        }
-
-        stage('Stop Docker') {
-
-            steps {
-
-                bat 'docker compose down'
 
             }
 
@@ -51,16 +46,22 @@ pipeline {
 
         always {
 
-            echo 'Publishing TestNG Report...'
+            echo 'Stopping Docker Containers...'
 
-            publishHTML(target: [
-                reportDir: 'test-output',
-                reportFiles: 'index.html',
-                reportName: 'TestNG Report',
-                allowMissing: false,
-                keepAll: true,
-                alwaysLinkToLastBuild: true
-            ])
+            // Always stop Docker (even if tests fail)
+            bat 'docker compose down'
+
+            echo 'Archiving Extent Reports...'
+
+            // Archive Extent reports
+            archiveArtifacts artifacts: 'reports/**',
+            fingerprint: true
+
+            echo 'Archiving TestNG Reports...'
+
+            // Archive TestNG reports
+            archiveArtifacts artifacts: 'test-output/**',
+            fingerprint: true
 
         }
 
