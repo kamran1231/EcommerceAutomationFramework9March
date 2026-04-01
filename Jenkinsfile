@@ -7,7 +7,8 @@ pipeline {
         stage('Checkout Code') {
 
             steps {
-				git branch: 'main',
+
+                git branch: 'main',
                 url: 'https://github.com/kamran1231/EcommerceAutomationFramework9March.git'
 
             }
@@ -41,6 +42,25 @@ pipeline {
                 bat 'docker compose down'
 
             }
+
+        }
+
+    }
+
+    post {
+
+        always {
+
+            echo 'Publishing TestNG Report...'
+
+            publishHTML(target: [
+                reportDir: 'test-output',
+                reportFiles: 'index.html',
+                reportName: 'TestNG Report',
+                allowMissing: false,
+                keepAll: true,
+                alwaysLinkToLastBuild: true
+            ])
 
         }
 
