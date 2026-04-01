@@ -7,8 +7,8 @@ pipeline {
         stage('Checkout Code') {
 
             steps {
-
-                git 'https://github.com/kamran1231/EcommerceAutomationFramework9March.git'
+				git branch: 'main',
+                url: 'https://github.com/kamran1231/EcommerceAutomationFramework9March.git'
 
             }
 
